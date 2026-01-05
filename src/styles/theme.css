@@ -1,0 +1,20 @@
+:root {
+  --bg: #0b1220;
+  --panel: #111827;
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+  --accent: #38bdf8;
+  --accent-soft: rgba(56,189,248,0.15);
+  --border: #1f2937;
+  --radius: 10px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 18px;
+  border-radius: var(--radius);
+  background: var(--accent);
+  color: #020617;
+  font-weight: 600;
+  text-decoration: none;
+}
