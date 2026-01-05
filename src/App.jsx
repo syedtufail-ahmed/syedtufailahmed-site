@@ -9,9 +9,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<Layout />}>
-          {/* HOME must be an index route */}
           <Route index element={<Home />} />
-
           <Route path="about" element={<About />} />
           <Route path="writing" element={<Writing />} />
         </Route>

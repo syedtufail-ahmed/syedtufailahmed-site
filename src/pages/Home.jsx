@@ -1,5 +1,5 @@
-import Button from "/components/Button";
-import Callout from "/components/Callout";
+import Button from "../components/Button";
+import Callout from "../components/Callout";
 import { Helmet } from "react-helmet-async";
 import PersonSchema from "../components/PersonSchema";
 

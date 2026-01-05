@@ -1,7 +1,13 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 import { HelmetProvider } from "react-helmet-async";
+
+import App from "./App";
+
 import "./styles/theme.css";
 import "./styles/typography.css";
 import "./styles/layout.css";
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HelmetProvider>
@@ -9,3 +15,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </HelmetProvider>
   </React.StrictMode>
 );
+
