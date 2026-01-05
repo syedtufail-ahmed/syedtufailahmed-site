@@ -1,0 +1,12 @@
+.article {
+  max-width: 720px;
+}
+
+.article h2 {
+  margin-top: 48px;
+}
+
+.article-meta {
+  margin-bottom: 32px;
+  color: var(--muted);
+}
