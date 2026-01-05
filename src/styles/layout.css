@@ -1,21 +1,39 @@
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 6, 23, 0.9),
+    rgba(15, 23, 42, 0.9)
+  );
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 24px;
-  border-bottom: 1px solid var(--border);
-}
-
-.nav a {
-  color: var(--muted);
-  text-decoration: none;
-  margin-left: 20px;
-}
-
-.nav a:hover {
-  color: var(--accent);
+  align-items: center;
+  padding: 22px 0;
 }
 
 .brand {
-  color: var(--text);
   font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.nav-links a {
+  margin-left: 24px;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: var(--accent);
+}
+
+.site-footer {
+  margin-top: 80px;
+  padding: 40px 0;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.9rem;
 }
