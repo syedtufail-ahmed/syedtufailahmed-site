@@ -1,8 +1,24 @@
 import Button from "/components/Button";
 import Callout from "/components/Callout";
+import { Helmet } from "react-helmet-async";
+import PersonSchema from "../components/PersonSchema";
 
 export default function Home() {
   return (
+    <>
+      <PersonSchema />
+   
+      <Helmet>
+        <title>Syed Tufail Ahmed | AI & Digital Transformation Leader</title>
+        <meta
+          name="description"
+          content="Syed Tufail Ahmed is an AI and digital transformation leader based in Saudi Arabia, author of Human in the Loop, focused on human-centered AI and governance."
+        />
+        <link
+          rel="canonical"
+          href="https://www.syedtufailahmed.com/"
+        />
+      </Helmet>
     <main className="container">
       <h1>Syed Tufail Ahmed</h1>
       <p className="subtitle">
@@ -20,5 +36,6 @@ export default function Home() {
 
       <Button href="/about">About My Work →</Button>
     </main>
+    </>
   );
 }
