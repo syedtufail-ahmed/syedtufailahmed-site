@@ -35,6 +35,10 @@ export default function Home() {
       </p>
 
       <Button href="/about">About My Work →</Button>
+      <a href="/writing/human-in-the-loop-ai-governance">
+  Read: Human-in-the-Loop AI & Governance →
+</a>
+
     </main>
     </>
   );

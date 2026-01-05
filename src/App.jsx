@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Writing from "./pages/Writing";
 import HumanInTheLoop from "./pages/HumanInTheLoop";
+import HumanInTheLoopAIGovernance from "./pages/writing/HumanInTheLoopAIGovernance";
+
 
 export default function App() {
   return (
@@ -17,6 +19,10 @@ export default function App() {
             path="writing/human-in-the-loop"
             element={<HumanInTheLoop />}
           />
+          <Route
+  path="/writing/human-in-the-loop-ai-governance"
+  element={<HumanInTheLoopAIGovernance />}
+/>
         </Route>
       </Routes>
     </BrowserRouter>
