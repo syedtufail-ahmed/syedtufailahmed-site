@@ -18,3 +18,9 @@
   font-weight: 600;
   text-decoration: none;
 }
+.callout {
+  border-left: 4px solid var(--accent);
+  padding: 18px 22px;
+  background: var(--accent-soft);
+  margin: 32px 0;
+}
