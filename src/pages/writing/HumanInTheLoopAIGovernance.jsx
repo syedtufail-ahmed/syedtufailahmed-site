@@ -1,8 +1,11 @@
 import { Helmet } from "react-helmet-async";
+import ArticleSchema from "../../components/ArticleSchema";
+
 
 export default function HumanInTheLoopAIGovernance() {
   return (
     <>
+      <ArticleSchema />
       <Helmet>
         <title>
           Human-in-the-Loop AI Governance | Syed Tufail Ahmed
