@@ -10,3 +10,18 @@
   margin-bottom: 32px;
   color: var(--muted);
 }
+.featured-article {
+  max-width: 600px;
+}
+
+.featured-article a {
+  font-size: 1.15rem;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.featured-article p {
+  opacity: 0.85;
+  line-height: 1.6;
+}
