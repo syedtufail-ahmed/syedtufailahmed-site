@@ -16,31 +16,40 @@ export default function Home() {
         <link rel="canonical" href="https://www.syedtufailahmed.com/" />
       </Helmet>
 
-      {/* HERO — full bleed */}
+      {/* HERO — 2 COLUMN EXECUTIVE */}
       <section className="hero">
-        <div className="hero-inner">
-          <h1>
-            Syed<br />Tufail Ahmed
-          </h1>
+        <div className="hero-grid">
+          
+          {/* LEFT COLUMN */}
+          <div className="hero-left">
+            <h1 className="hero-name">
+              Syed<br />Tufail Ahmed
+            </h1>
 
-          <p className="hero-role">
-            AI & Digital Transformation Leader<br />
-            Human-Centered AI · Digital Governance · Public Systems
-          </p>
+            <p className="hero-role">
+              AI & Digital Transformation Leader<br />
+              Human-Centered AI · Digital Governance · Public Systems
+            </p>
 
-          <blockquote>
-            AI should scale human judgment — not replace it.
-          </blockquote>
-
-          <div className="hero-actions">
-            <Button href="/about">About My Work</Button>
-            <a
-              className="secondary-link"
-              href="/writing/human-in-the-loop-ai-governance"
-            >
-              Read: Human-in-the-Loop AI & Governance →
-            </a>
+            <div className="hero-actions">
+              <Button href="/about">About My Work</Button>
+              <a
+                className="secondary-link"
+                href="/writing/human-in-the-loop-ai-governance"
+              >
+                Read: Human-in-the-Loop AI & Governance →
+              </a>
+            </div>
           </div>
+
+          {/* RIGHT COLUMN */}
+          <div className="hero-right">
+            <blockquote className="hero-quote">
+              AI should scale human judgment — <br />
+              <span>not replace it.</span>
+            </blockquote>
+          </div>
+
         </div>
       </section>
 
