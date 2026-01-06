@@ -1,0 +1,98 @@
+/* ---------- HERO ---------- */
+
+.hero {
+  min-height: 90vh;
+  background: radial-gradient(
+    1200px 600px at 10% 10%,
+    #0d2742 0%,
+    #060c17 55%,
+    #02060d 100%
+  );
+  display: flex;
+  align-items: center;
+}
+
+.hero-inner {
+  max-width: 1100px;
+  padding: 6rem 2rem;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: clamp(3.5rem, 6vw, 5rem);
+  font-weight: 700;
+  line-height: 1.05;
+  margin-bottom: 1.5rem;
+}
+
+.hero-role {
+  font-size: 1.2rem;
+  opacity: 0.85;
+  margin-bottom: 2rem;
+}
+
+.hero blockquote {
+  border-left: 4px solid #3fb9ff;
+  padding-left: 1rem;
+  font-style: italic;
+  font-size: 1.1rem;
+  margin-bottom: 2.5rem;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.secondary-link {
+  font-size: 0.95rem;
+  opacity: 0.8;
+}
+
+.secondary-link:hover {
+  opacity: 1;
+}
+
+/* ---------- SECTIONS ---------- */
+
+.section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.7;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ---------- FOCUS ---------- */
+
+.focus-list {
+  list-style: none;
+  padding: 0;
+}
+
+.focus-list li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 1rem;
+}
+
+/* ---------- WRITING ---------- */
+
+.featured-article a {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.featured-article p {
+  margin-top: 0.75rem;
+  opacity: 0.85;
+}

@@ -93,15 +93,7 @@ export default function About() {
           </p>
         </section>
 
-        <footer className="author-footer">
-          <p>
-            © 2026 Syed Tufail Ahmed ·{" "}
-            <a href="mailto:syed@syedtufailahmed.com">
-              syed@syedtufailahmed.com
-            </a>
-          </p>
-        </footer>
-      </main>
+             </main>
     </>
   );
 }
