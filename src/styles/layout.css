@@ -46,7 +46,7 @@
 /* HERO */
 /* HERO */
 .hero {
-  min-height: 85vh;
+  min-height: 75vh;
   display: flex;
   align-items: center;
   background: radial-gradient(
@@ -57,12 +57,10 @@
 }
 
 .hero-grid {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 4rem 2rem;
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
+  grid-template-columns: 1.2fr 0.8fr;
   gap: 4rem;
+  align-items: center;
 }
 
 /* LEFT */
@@ -74,9 +72,11 @@
 }
 
 .hero-role {
-  font-size: 1.1rem;
-  color: #b7c6d9;
-  margin-bottom: 2.5rem;
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 0.3px;
+}
+.hero-left {
+  max-width: 600px;
 }
 
 .hero-actions {
@@ -86,19 +86,21 @@
 }
 
 /* RIGHT */
+
 .hero-right {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.75rem;
 }
 
 .hero-quote {
-  border-left: 4px solid #3db7ff;
-  padding-left: 2rem;
-  font-size: 1.5rem;
-  font-style: italic;
-  color: #e6f1ff;
-  max-width: 420px;
+  border-left: 3px solid #3fb9ff;
+  padding-left: 1rem;
+  font-size: 1.05rem;
+  font-style: normal;   /* removed italics */
+  font-weight: 500;
+  opacity: 0.9;
 }
 
 .hero-quote span {
@@ -113,9 +115,12 @@
 
 .hero-photo {
   width: 220px;
+  height: auto;
   border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
 }
+
 
 /* LINKS */
 .secondary-link {
@@ -128,14 +133,15 @@
 }
 
 /* RESPONSIVE */
+
 @media (max-width: 900px) {
   .hero-grid {
     grid-template-columns: 1fr;
+    gap: 3rem;
   }
 
   .hero-right {
-    margin-top: 3rem;
-    justify-content: flex-start;
+    align-items: flex-start;
   }
 }
 
