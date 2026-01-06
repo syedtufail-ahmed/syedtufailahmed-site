@@ -24,3 +24,62 @@
   background: var(--accent-soft);
   margin: 32px 0;
 }
+.hero {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  background: radial-gradient(
+    circle at top left,
+    #0f2740,
+    #070d1a 65%
+  );
+}
+
+.hero-inner {
+  max-width: 960px;
+  padding: 4rem 2rem;
+}
+
+.hero-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+  color: #7cbcff;
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-size: clamp(3rem, 5vw, 4.5rem);
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+}
+
+.hero-description {
+  max-width: 700px;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-top: 1.5rem;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.hero-link {
+  color: #9ddcff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.hero-link:hover {
+  text-decoration: underline;
+}
