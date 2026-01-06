@@ -7,14 +7,17 @@ export default function Home() {
     <>
       <PersonSchema />
 
-      <Helmet>
-        <title>Syed Tufail Ahmed | AI & Digital Transformation Leader</title>
-        <meta
-          name="description"
-          content="Syed Tufail Ahmed is an AI and digital transformation leader focused on human-centered AI, governance, and large-scale public digital systems."
-        />
-        <link rel="canonical" href="https://www.syedtufailahmed.com/" />
-      </Helmet>
+     <Helmet>
+  <title>Syed Tufail Ahmed | AI & Digital Transformation Leader</title>
+
+  <meta
+    name="description"
+    content="Syed Tufail Ahmed is an AI and digital transformation leader based in Riyadh, Saudi Arabia, focused on human-centered AI, digital governance, and large-scale public-sector digital systems."
+  />
+
+  <link rel="canonical" href="https://www.syedtufailahmed.com/" />
+</Helmet>
+
 
       {/* HERO — 2 COLUMN EXECUTIVE */}
       <section className="hero">

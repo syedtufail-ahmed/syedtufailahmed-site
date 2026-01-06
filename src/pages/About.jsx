@@ -6,17 +6,17 @@ export default function About() {
     <>
       <PersonSchema />
 
-      <Helmet>
-        <title>About Syed Tufail Ahmed | AI & Digital Transformation Leader</title>
-        <meta
-          name="description"
-          content="About Syed Tufail Ahmed — an AI & digital transformation leader based in Saudi Arabia, focused on human-centered AI, AI governance, and large-scale digital platforms."
-        />
-        <link
-          rel="canonical"
-          href="https://www.syedtufailahmed.com/about"
-        />
-      </Helmet>
+     <Helmet>
+  <title>About Syed Tufail Ahmed | AI, Digital Transformation & Governance</title>
+
+  <meta
+    name="description"
+    content="Learn about Syed Tufail Ahmed, an AI and digital transformation leader in Riyadh, Saudi Arabia, working at the intersection of human-centered AI, governance, and large-scale public digital platforms."
+  />
+
+  <link rel="canonical" href="https://www.syedtufailahmed.com/about" />
+</Helmet>
+
 
       <main className="container">
         <header>

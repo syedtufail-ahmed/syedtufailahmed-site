@@ -3,19 +3,20 @@ import { Helmet } from "react-helmet-async";
 export default function HumanInTheLoop() {
   return (
     <>
-      <Helmet>
-        <title>
-          Human-in-the-Loop AI: Reclaiming Human Authority | Syed Tufail Ahmed
-        </title>
-        <meta
-          name="description"
-          content="An in-depth essay by Syed Tufail Ahmed on why human-in-the-loop AI is essential for accountability, governance, and trust in intelligent systems."
-        />
-        <link
-          rel="canonical"
-          href="https://www.syedtufailahmed.com/writing/human-in-the-loop"
-        />
-      </Helmet>
+     <Helmet>
+  <title>Human-in-the-Loop AI & Governance | Syed Tufail Ahmed</title>
+
+  <meta
+    name="description"
+    content="An exploration of why human judgment, accountability, and institutional responsibility must remain central as AI systems scale in public and enterprise environments."
+  />
+
+  <link
+    rel="canonical"
+    href="https://www.syedtufailahmed.com/writing/human-in-the-loop-ai-governance"
+  />
+</Helmet>
+
 
       <main className="container article">
         <h1>Human-in-the-Loop AI: Reclaiming Human Authority</h1>
