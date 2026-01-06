@@ -43,14 +43,20 @@ export default function Home() {
           </div>
 
           {/* RIGHT COLUMN */}
-          <div className="hero-right">
-            <blockquote className="hero-quote">
-              AI should scale human judgment — <br />
-              <span>not replace it.</span>
-            </blockquote>
-          </div>
-
-        </div>
+       <div className="hero-right">
+  <div className="hero-photo-wrap">
+    <img
+      src="/public/profile.jpg"
+      alt="Syed Tufail Ahmed – AI & Digital Transformation Leader"
+      className="hero-photo"
+    />
+    <blockquote className="hero-quote">
+      AI should scale human judgment — <br />
+      <span>not replace it.</span>
+    </blockquote>
+  </div>
+</div>
+</div>
       </section>
 
       {/* INTRO */}

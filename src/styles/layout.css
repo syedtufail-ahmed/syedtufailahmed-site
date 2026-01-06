@@ -105,6 +105,18 @@
   font-weight: 600;
 }
 
+.hero-photo-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.hero-photo {
+  width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
 /* LINKS */
 .secondary-link {
   color: #7fbfff;
