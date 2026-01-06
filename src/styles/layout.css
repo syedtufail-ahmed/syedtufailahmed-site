@@ -37,3 +37,70 @@
   color: var(--muted);
   font-size: 0.9rem;
 }
+.editorial-container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 6rem 2rem 4rem;
+}
+
+/* HERO */
+.hero h1 {
+  font-size: 3.2rem;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+.hero-role {
+  font-size: 1.1rem;
+  opacity: 0.85;
+  margin-bottom: 2.5rem;
+}
+
+.hero-quote {
+  border-left: 4px solid #3aa6ff;
+  padding-left: 1.5rem;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-bottom: 4rem;
+}
+
+/* POSITIONING */
+.positioning {
+  font-size: 1.15rem;
+  margin-bottom: 4rem;
+}
+
+/* SECTIONS */
+section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.focus ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.focus li {
+  margin-bottom: 0.8rem;
+}
+
+/* WRITING */
+.writing-title a {
+  font-size: 1.15rem;
+  text-decoration: none;
+  border-bottom: 1px solid #3aa6ff;
+}
+
+.writing-title a:hover {
+  opacity: 0.8;
+}
+
+/* FOOTER */
+.site-footer {
+  margin-top: 6rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
