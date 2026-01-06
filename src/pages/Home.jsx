@@ -46,7 +46,7 @@ export default function Home() {
        <div className="hero-right">
   <div className="hero-photo-wrap">
     <img
-      src="/public/profile.jpg"
+      src="/profile.jpg"
       alt="Syed Tufail Ahmed – AI & Digital Transformation Leader"
       className="hero-photo"
     />
