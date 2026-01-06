@@ -27,8 +27,8 @@ export default function Layout() {
             </a>
             
           </p>
-          <p class="linkedin-follow">
-  Connect on
+          <p className="linkedin-follow">
+  Connect on &nbsp;
   <a
     href="https://www.linkedin.com/in/tufailsa/"
     target="_blank"
