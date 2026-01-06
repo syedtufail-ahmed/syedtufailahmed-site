@@ -91,8 +91,12 @@ export default function About() {
               Human-in-the-Loop AI & Governance
             </a>
           </p>
-        </section>
 
+          <p>Note: This website represents Syed Tufail Ahmed (Riyadh, Saudi Arabia) — focused on AI, digital transformation, and digital governance for large-scale public systems.
+It is not associated with other individuals with the same name in unrelated roles or organizations.</p>
+
+        </section>
+        
              </main>
     </>
   );
