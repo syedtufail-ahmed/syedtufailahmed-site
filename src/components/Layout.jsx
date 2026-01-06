@@ -25,7 +25,18 @@ export default function Layout() {
             <a href="mailto:syed@syedtufailahmed.com">
               {" "}syed@syedtufailahmed.com
             </a>
+            
           </p>
+          <p class="linkedin-follow">
+  Connect on
+  <a
+    href="https://www.linkedin.com/in/tufailsa/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    LinkedIn
+  </a>
+</p>
         </div>
       </footer>
     </>
