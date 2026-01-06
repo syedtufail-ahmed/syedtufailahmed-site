@@ -83,3 +83,51 @@
 .hero-link:hover {
   text-decoration: underline;
 }
+.page {
+  background: radial-gradient(
+    circle at top left,
+    #0f2740,
+    #070d1a 70%
+  );
+  min-height: 100vh;
+}
+
+.page-hero {
+  max-width: 960px;
+  padding: 4rem 2rem 2rem;
+}
+
+.page-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+  color: #7cbcff;
+  margin-bottom: 0.75rem;
+}
+
+.page-subtitle {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-top: 0.5rem;
+}
+
+.content {
+  max-width: 760px;
+  padding: 2rem;
+  line-height: 1.65;
+}
+
+.content h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+.content ul {
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+}
+
+.content li {
+  margin-bottom: 0.5rem;
+}
