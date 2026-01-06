@@ -1,14 +1,16 @@
 import { Helmet } from "react-helmet-async";
-import Callout from "../components/Callout";
+import PersonSchema from "../components/PersonSchema";
 
 export default function About() {
   return (
     <>
+      <PersonSchema />
+
       <Helmet>
-        <title>About Syed Tufail Ahmed | Human-Centered AI & Digital Transformation</title>
+        <title>About Syed Tufail Ahmed | AI & Digital Transformation Leader</title>
         <meta
           name="description"
-          content="Learn about Syed Tufail Ahmed — an AI and digital transformation leader focused on human-centered AI, governance-aware systems, and large-scale public-sector platforms."
+          content="About Syed Tufail Ahmed — an AI & digital transformation leader based in Saudi Arabia, focused on human-centered AI, AI governance, and large-scale digital platforms."
         />
         <link
           rel="canonical"
@@ -16,50 +18,55 @@ export default function About() {
         />
       </Helmet>
 
-      <main className="page">
-        <section className="page-hero">
-          <p className="page-eyebrow">About</p>
-          <h1>Syed Tufail Ahmed</h1>
-          <p className="page-subtitle">
+      <main className="container">
+        <header>
+          <h1>About Syed Tufail Ahmed</h1>
+          <p className="subtitle">
             AI & Digital Transformation Leader · Human-Centered AI Advocate
+          </p>
+        </header>
+
+        <section>
+          <p>
+            <strong>Syed Tufail Ahmed</strong> is an AI and digital transformation
+            leader based in <strong>Saudi Arabia</strong>, working at the
+            intersection of <strong>technology, governance, and human-centered
+            system design</strong>.
+          </p>
+
+          <p>
+            His work focuses on ensuring that intelligent systems remain
+            accountable to <strong>human judgment, values, and authority</strong>
+            — particularly in environments where technology must operate within
+            regulatory, cultural, and institutional constraints.
           </p>
         </section>
 
-        <section className="content">
-          <Callout>
-            My work focuses on ensuring intelligent systems remain accountable
-            to human judgment, values, and authority.
-          </Callout>
+        <section>
+          <h2>Professional Background</h2>
 
           <p>
-            I am an AI and digital transformation leader based in Saudi Arabia,
-            working at the intersection of technology, governance, and
-            human-centered system design.
+            With over <strong>two decades of experience</strong> across
+            engineering, enterprise platforms, and large-scale transformation
+            programs, his career has evolved from hands-on software development
+            to leading complex, governance-aware digital initiatives across
+            public-sector and enterprise environments.
           </p>
 
           <p>
-            With over two decades of experience across engineering, enterprise
-            platforms, and large-scale transformation programs, my career has
-            evolved from hands-on software development to leading complex,
-            governance-aware digital initiatives across public and enterprise
-            environments.
-          </p>
-
-          <h2>Professional Focus</h2>
-
-          <p>
-            Today, my work spans AI-enabled digital transformation, platform
-            modernization, and the design of systems that must operate within
-            regulatory, cultural, and institutional constraints.
+            Today, his work spans:
           </p>
 
           <ul>
-            <li>Human-Centered & Human-in-the-Loop AI systems</li>
+            <li>AI-enabled digital transformation programs</li>
+            <li>Human-centered & Human-in-the-Loop AI systems</li>
             <li>AI governance and accountability frameworks</li>
             <li>Public-sector and large-scale digital platforms</li>
             <li>Leadership at the intersection of policy and technology</li>
           </ul>
+        </section>
 
+        <section>
           <h2>Human-Centered AI Philosophy</h2>
 
           <p>
@@ -68,19 +75,32 @@ export default function About() {
           </p>
 
           <p>
-            I advocate for <strong>Human-in-the-Loop AI</strong>: systems designed
-            to augment human decision-making, not replace it. This principle
-            shapes my writing, leadership approach, and system architecture
-            decisions.
+            Syed advocates for <strong>Human-in-the-Loop AI</strong>: systems
+            designed to <em>augment</em> human decision-making, not replace it.
+            This principle shapes his leadership approach, writing, and system
+            architecture decisions.
           </p>
 
           <p>
-            This philosophy is explored in depth in my writing, including{" "}
+            This philosophy is explored in depth in his writing, including:
+          </p>
+
+          <p>
+            →{" "}
             <a href="/writing/human-in-the-loop-ai-governance">
               Human-in-the-Loop AI & Governance
-            </a>.
+            </a>
           </p>
         </section>
+
+        <footer className="author-footer">
+          <p>
+            © 2026 Syed Tufail Ahmed ·{" "}
+            <a href="mailto:syed@syedtufailahmed.com">
+              syed@syedtufailahmed.com
+            </a>
+          </p>
+        </footer>
       </main>
     </>
   );
