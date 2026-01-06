@@ -24,17 +24,6 @@
   background: var(--accent-soft);
   margin: 32px 0;
 }
-.hero {
-  min-height: 85vh;
-  display: flex;
-  align-items: center;
-  background: radial-gradient(
-    circle at top left,
-    #0f2740,
-    #070d1a 65%
-  );
-}
-
 .hero-inner {
   max-width: 960px;
   padding: 4rem 2rem;
