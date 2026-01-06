@@ -4,23 +4,27 @@ export default function PersonSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Person",
+    "@id": "https://www.syedtufailahmed.com/#person",
+
     "name": "Syed Tufail Ahmed",
-    "url": "https://www.syedtufailahmed.com/",
+    "url": "https://www.syedtufailahmed.com",
+
+    "image": "https://www.syedtufailahmed.com/profile.jpg",
+
     "jobTitle": "AI & Digital Transformation Leader",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Ministry of Culture, Saudi Arabia"
+
+    "description":
+      "AI and digital transformation leader based in Riyadh, Saudi Arabia, focused on human-centered AI, digital governance, and large-scale public-sector digital systems.",
+
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Riyadh",
+      "addressCountry": "SA"
     },
+
     "sameAs": [
-      "https://www.linkedin.com/in/tufailsa",
-      "https://www.instagram.com/syedtufail4u",
-      "https://www.instagram.com/tufail1977"
-    ],
-    "knowsAbout": [
-      "Artificial Intelligence",
-      "Digital Transformation",
-      "Human-in-the-Loop Systems",
-      "AI Governance"
+      "https://www.linkedin.com/in/tufailsa/",
+      "https://www.syedtufailahmed.com"
     ]
   };
 
