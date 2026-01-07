@@ -70,6 +70,50 @@ export default function Home() {
           <strong>human judgment, institutional values, and public trust</strong>.
         </p>
       </section>
+{/* BOOK PREVIEW */}
+<section className="section book-preview">
+  <div className="book-grid">
+
+    {/* LEFT: Book Cover */}
+    <div className="book-cover">
+      <img
+        src="/book.png"
+        alt="Human in the Loop — Reclaiming Human Authority in an Age of Intelligent Systems"
+      />
+    </div>
+
+    {/* RIGHT: Book Content */}
+    <div className="book-content">
+      <p className="book-eyebrow">Forthcoming Book</p>
+
+      <h2 className="book-title">
+        Human in the Loop
+      </h2>
+
+      <p className="book-subtitle">
+        Reclaiming Human Authority in an Age of Intelligent Systems
+      </p>
+
+      <p className="book-description">
+        A governance-first examination of how AI systems reshape authority,
+        sovereignty, and accountability — and why human judgment must remain
+        structurally embedded in high-impact decision systems.
+      </p>
+
+      <p className="book-status">
+        Manuscript completed · Publishing details forthcoming
+      </p>
+
+      <a
+        href="/writing/human-in-the-loop-ai-governance"
+        className="secondary-link"
+      >
+        Read the core ideas →
+      </a>
+    </div>
+
+  </div>
+</section>
 
       {/* FOCUS */}
       <section className="section focus">
