@@ -6,6 +6,33 @@ export default function Home() {
   return (
     <>
       <PersonSchema />
+<Helmet>
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Book",
+      "name": "Human in the Loop",
+      "alternativeHeadline": "Reclaiming Human Authority in an Age of Intelligent Systems",
+      "author": {
+        "@type": "Person",
+        "name": "Syed Tufail Ahmed",
+        "url": "https://www.syedtufailahmed.com"
+      },
+      "about": [
+        "Human-in-the-Loop AI",
+        "AI governance",
+        "Human judgment in AI systems",
+        "Accountability in intelligent systems"
+      ],
+      "bookEdition": "Manuscript completed",
+      "description":
+        "A governance-first examination of how AI systems reshape authority, sovereignty, and accountability — and why human judgment must remain structurally embedded in high-impact decision systems.",
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "url": "https://www.syedtufailahmed.com"
+    })}
+  </script>
+</Helmet>
 
      <Helmet>
   <title>Syed Tufail Ahmed | AI & Digital Transformation Leader</title>
