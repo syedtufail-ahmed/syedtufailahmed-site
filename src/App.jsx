@@ -26,14 +26,8 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="writing" element={<Writing />} />
-          <Route
-            path="writing/human-in-the-loop"
-            element={<HumanInTheLoop />}
-          />
-          <Route
-  path="/writing/human-in-the-loop-ai-governance"
-  element={<HumanInTheLoopAIGovernance />}
-/>
+          <Route path="writing/human-in-the-loop" element={<HumanInTheLoop />} />
+          <Route path="/writing/human-in-the-loop-ai-governance" element={<HumanInTheLoopAIGovernance />}/>
         </Route>
       </Routes>
     </BrowserRouter>
