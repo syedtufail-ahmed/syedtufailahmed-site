@@ -5,7 +5,7 @@ import About from "./pages/About";
 import Writing from "./pages/Writing";
 import HumanInTheLoop from "./pages/HumanInTheLoop";
 import HumanInTheLoopAIGovernance from "./pages/writing/HumanInTheLoopAIGovernance";
-import AnalyticsTracker from "./src/AnalyticsTracker";
+import AnalyticsTracker from "./AnalyticsTracker";
 
 export default function App() {
   return (
