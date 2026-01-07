@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <PersonSchema />
-      <BookSchema />
+   
 <Helmet>
   <script type="application/ld+json">
     {JSON.stringify({
