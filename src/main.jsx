@@ -12,10 +12,12 @@ import "./styles/home.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <HelmetProvider>
+    <HelmetProvider>
+      <BrowserRouter>
         <App />
-      </HelmetProvider>
-    </BrowserRouter>
+      </BrowserRouter>
+    </HelmetProvider>
   </React.StrictMode>
-</React.StrictMode>
+);
+
+
