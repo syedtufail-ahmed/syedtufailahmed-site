@@ -1,11 +1,13 @@
 import { Helmet } from "react-helmet-async";
 import Button from "../components/Button";
 import PersonSchema from "../components/PersonSchema";
+import BookSchema from "../components/BookSchema";
 
 export default function Home() {
   return (
     <>
       <PersonSchema />
+      <BookSchema />
 <Helmet>
   <script type="application/ld+json">
     {JSON.stringify({
