@@ -84,7 +84,7 @@ export default function Home() {
 
     {/* RIGHT: Book Content */}
     <div className="book-content">
-      <p className="book-eyebrow">Forthcoming Book</p>
+      <p className="book-eyebrow">FORTHCOMING BOOK ON AI GOVERNANCE</p>
 
       <h2 className="book-title">
         Human in the Loop
