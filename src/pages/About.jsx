@@ -27,19 +27,11 @@ export default function About() {
         </header>
 
         <section>
-          <p>
-            <strong>Syed Tufail Ahmed</strong> is an AI and digital transformation
-            leader based in <strong>Saudi Arabia</strong>, working at the
-            intersection of <strong>technology, governance, and human-centered
-            system design</strong>.
-          </p>
+         I am <strong >Syed Tufail Ahmed </strong>, an AI and digital transformation leader based in <strong>Saudi Arabia</strong>.
+          <p> My work focuses on human-centered AI, digital governance, and the design of large-scale public systems where accountability, oversight, and human judgment are essential.
+         </p>
 
-          <p>
-            His work focuses on ensuring that intelligent systems remain
-            accountable to <strong>human judgment, values, and authority</strong>
-            — particularly in environments where technology must operate within
-            regulatory, cultural, and institutional constraints.
-          </p>
+         
         </section>
 
         <section>

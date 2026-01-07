@@ -39,10 +39,11 @@ export default function Home() {
      <Helmet>
   <title>Syed Tufail Ahmed | AI & Digital Transformation Leader</title>
 
-  <meta
-    name="description"
-    content="Syed Tufail Ahmed is an AI and digital transformation leader based in Riyadh, Saudi Arabia, focused on human-centered AI, digital governance, and large-scale public-sector digital systems."
-  />
+ <meta
+  name="description"
+  content="Syed Tufail Ahmed is an AI and digital transformation leader based in Saudi Arabia, focused on human-centered AI, digital governance, and large-scale public systems."
+/>
+
 
   <link rel="canonical" href="https://www.syedtufailahmed.com/" />
 </Helmet>
@@ -143,7 +144,14 @@ export default function Home() {
 
   </div>
 </section>
-
+<section className="section author-context">
+  <p>
+    <strong>Syed Tufail Ahmed</strong> is an AI & digital transformation leader
+    working at the intersection of technology, governance, and public systems.
+    His work focuses on ensuring intelligent systems remain accountable to
+    human judgment, institutional values, and public trust.
+  </p>
+</section>
       {/* FOCUS */}
       <section className="section focus">
         <h2>What I focus on</h2>
