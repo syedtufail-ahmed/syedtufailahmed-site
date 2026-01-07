@@ -7,17 +7,6 @@ import HumanInTheLoop from "./pages/HumanInTheLoop";
 import HumanInTheLoopAIGovernance from "./pages/writing/HumanInTheLoopAIGovernance";
 import AnalyticsTracker from "./src/AnalyticsTracker";
 
-
-
-export default function App() {
-  return (
-    <>
-      <AnalyticsTracker />
-      {/* your layout + routes */}
-    </>
-  );
-}
-
 export default function App() {
   return (
     <BrowserRouter>
@@ -29,6 +18,7 @@ export default function App() {
           <Route path="writing/human-in-the-loop" element={<HumanInTheLoop />} />
           <Route path="/writing/human-in-the-loop-ai-governance" element={<HumanInTheLoopAIGovernance />}/>
         </Route>
+        <AnalyticsTracker />
       </Routes>
     </BrowserRouter>
   );
