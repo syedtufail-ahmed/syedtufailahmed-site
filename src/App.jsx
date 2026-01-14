@@ -6,6 +6,7 @@ import Writing from "./pages/Writing";
 import HumanInTheLoop from "./pages/HumanInTheLoop";
 import HumanInTheLoopAIGovernance from "./pages/writing/HumanInTheLoopAIGovernance";
 import AnalyticsTracker from "./AnalyticsTracker";
+import Book from "./pages/Book";
 
 export default function App() {
   return (
@@ -27,3 +28,4 @@ export default function App() {
     </>
   );
 }
+<Route path="/book" element={<Book />} />

@@ -7,33 +7,7 @@ export default function Home() {
     <>
       <PersonSchema />
    
-<Helmet>
-  <script type="application/ld+json">
-    {JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Book",
-      "name": "Human in the Loop",
-      "alternativeHeadline": "Reclaiming Human Authority in an Age of Intelligent Systems",
-      "author": {
-        "@type": "Person",
-        "name": "Syed Tufail Ahmed",
-        "url": "https://www.syedtufailahmed.com"
-      },
-      "about": [
-        "Human-in-the-Loop AI",
-        "AI governance",
-        "Human judgment in AI systems",
-        "Accountability in intelligent systems"
-      ],
-      "bookEdition": "Manuscript completed",
-      "description":
-        "A governance-first examination of how AI systems reshape authority, sovereignty, and accountability — and why human judgment must remain structurally embedded in high-impact decision systems.",
-      "inLanguage": "en",
-      "isAccessibleForFree": true,
-      "url": "https://www.syedtufailahmed.com"
-    })}
-  </script>
-</Helmet>
+
 
      <Helmet>
   <title>Syed Tufail Ahmed | AI & Digital Transformation Leader</title>
@@ -113,7 +87,7 @@ export default function Home() {
 
     {/* RIGHT: Book Content */}
     <div className="book-content">
-      <p className="book-eyebrow">FORTHCOMING BOOK ON AI GOVERNANCE</p>
+      <p className="book-eyebrow">PUBLISHED BOOK ON AI GOVERNANCE</p>
 
       <h2 className="book-title">
         Human in the Loop
@@ -130,8 +104,17 @@ export default function Home() {
       </p>
 
       <p className="book-status">
-        Manuscript completed · Publishing details forthcoming
+        Published · ISBN 979-8902692775 · Notion Press
       </p>
+
+      <a className="book-link" href="/book">
+        View book details →
+      </a>
+    </div>
+
+  </div>
+</section>
+
 
       <a
         href="/writing/human-in-the-loop-ai-governance"
@@ -139,10 +122,9 @@ export default function Home() {
       >
         Read the core ideas →
       </a>
-    </div>
+  
 
-  </div>
-</section>
+ 
 <section className="section author-context">
   <p>
     <strong>Syed Tufail Ahmed</strong> is an AI & digital transformation leader
