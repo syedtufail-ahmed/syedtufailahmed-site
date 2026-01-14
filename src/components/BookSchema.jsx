@@ -24,7 +24,7 @@ export default function BookSchema() {
   "bookFormat": "https://schema.org/Hardcover",
   "image": "https://www.syedtufailahmed.com/book.png",
   "description": "A governance-first examination of how AI systems reshape authority, sovereignty, and accountability — and why human judgment must remain structurally embedded in high-impact decision systems.",
-  "url": "https://www.syedtufailahmed.com/book"
+  "url": "https://www.syedtufailahmed.com/Book"
 },
 )}
       </script>
