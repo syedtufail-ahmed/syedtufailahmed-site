@@ -1,4 +1,4 @@
-import BookSchema from "../schemas/BookSchema";
+import BookSchema from "../components/BookSchema";
 
 export default function Book() {
   return (
