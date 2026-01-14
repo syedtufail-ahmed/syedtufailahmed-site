@@ -107,7 +107,7 @@ export default function Home() {
         Published · ISBN 979-8902692775 · Notion Press
       </p>
 
-      <a className="book-link" href="/book">
+      <a className="book-link" href="/Book">
         View book details →
       </a>
     </div>
