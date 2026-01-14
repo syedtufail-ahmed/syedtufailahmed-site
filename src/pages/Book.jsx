@@ -1,9 +1,7 @@
-import BookSchema from "../components/BookSchema";
-
 export default function Book() {
   return (
     <>
-      <BookSchema />
+   
 
       <div className="section">
         <h1>
