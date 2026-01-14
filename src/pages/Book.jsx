@@ -1,8 +1,21 @@
 import BookSchema from "../components/BookSchema";
+import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 export default function Book() {
   return (
     <>
+    <Helmet>
+        <title>Book | Syed Tufail Ahmed</title>
+        <meta
+          name="description"
+          content="Book by Syed Tufail Ahmed on human-centered AI, digital transformation, governance, and leadership."
+        />
+        <link
+          rel="canonical"
+          href="https://www.syedtufailahmed.com/Book"
+        />
+      </Helmet>
       <BookSchema />
 
       <h1>
