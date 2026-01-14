@@ -28,4 +28,4 @@ export default function App() {
     </>
   );
 }
-<Route path="/book" element={<Book />} />
+<Route path="/Book" element={<Book />} />
