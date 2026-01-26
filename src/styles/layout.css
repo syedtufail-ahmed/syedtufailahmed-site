@@ -89,3 +89,15 @@ body {
 .linkedin-follow a:hover {
   text-decoration: underline;
 }
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.7);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+body {
+  scroll-padding-top: 80px; /* adjust if header height differs */
+}
