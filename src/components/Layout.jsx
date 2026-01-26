@@ -6,7 +6,7 @@ export default function Layout() {
     <>
     </navbar>
 
-      <Outlet />
+    </Outlet>
 
       <footer className="site-footer">
         <div className="container">
