@@ -7,6 +7,7 @@ import HumanInTheLoop from "./pages/HumanInTheLoop";
 import HumanInTheLoopAIGovernance from "./pages/writing/HumanInTheLoopAIGovernance";
 import AnalyticsTracker from "./AnalyticsTracker";
 import Book from "./pages/Book";
+import ExecutiveCredentials from "./pages/ExecutiveCredentials";
 
 export default function App() {
   return (
