@@ -4,9 +4,9 @@ import Navbar from "./Navbar";
 export default function Layout() {
   return (
     <>
-    </navbar>
+   <Navbar />
 
-    </Outlet>
+      <Outlet />
 
       <footer className="site-footer">
         <div className="container">
