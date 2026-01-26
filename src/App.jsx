@@ -20,13 +20,13 @@ export default function App() {
           <Route path="about" element={<About />} />
           <Route path="writing" element={<Writing />} />
           <Route path="writing/human-in-the-loop" element={<HumanInTheLoop />} />
-          <Route
-            path="writing/human-in-the-loop-ai-governance"
-            element={<HumanInTheLoopAIGovernance />}
+          <Route path="/executive-credentials" element={<ExecutiveCredentials />} />
+          <Route path="writing/human-in-the-loop-ai-governance" element={<HumanInTheLoopAIGovernance />}
+            <Route path="/Book" element={<Book />} />
           />
         </Route>
       </Routes>
     </>
   );
 }
-<Route path="/Book" element={<Book />} />
+
