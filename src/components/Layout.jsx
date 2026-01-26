@@ -1,20 +1,10 @@
 import { Outlet, Link } from "react-router-dom";
+import Navbar from "./Navbar";
 
 export default function Layout() {
   return (
     <>
-      <header className="site-header">
-        <nav className="nav container">
-          <Link to="/" className="brand">
-            Syed Tufail Ahmed
-          </Link>
-
-          <div className="nav-links">
-            <Link to="/about">About</Link>
-            <Link to="/writing">Writing</Link>
-          </div>
-        </nav>
-      </header>
+    </navbar>
 
       <Outlet />
 
