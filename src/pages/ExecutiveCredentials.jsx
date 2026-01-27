@@ -1,4 +1,4 @@
-ship.jpgexport default function ExecutiveCredentials() {
+default function ExecutiveCredentials() {
   return (
     <main className="section">
       <div className="container">
