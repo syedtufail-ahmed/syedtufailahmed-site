@@ -166,8 +166,12 @@ body {
 }
 .membership-image-large {
   width: 100%;
-  max-width
+  max-width: 420px;   /* increased from 220 */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.45);
 }
+
 .membership-image {
   width: 100%;
   max-width: 220px;
@@ -198,3 +202,28 @@ body {
     text-align: center;
   }
 }
+
+.membership-image-thumb {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+
+.view-certificate-btn {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: #ffd24d;
+  text-decoration: none;
+}
+
+.view-certificate-btn:hover {
+  text-decoration: underline;
+}
+.verification-note {
+  font-size: 0.85rem;
+  color: #9aa0a6;
+  margin-top: 1rem;
+}
+
