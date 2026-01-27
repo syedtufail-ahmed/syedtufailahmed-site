@@ -11,35 +11,44 @@ export default function ExecutiveCredentials() {
           and responsible digital transformation.
         </p>
 
-        <section className="credentials-badges" style={{ marginTop: "2rem" }}>
-  <div style={{ maxWidth: "100%", textAlign: "center", marginBottom: "1.5rem" }}>
-    <a
-      href="https://www.thinkers360.com/tl/badge/31895/7496"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img
-        width="220"
-        src="https://www.thinkers360.com/tl/assets/images/badges/top10/Top%2010%20-%20AI%20Ethics.png"
-        alt="Top 10 Thought Leader in AI Ethics – Thinkers360"
-      />
-    </a>
-  </div>
+<section className="credentials-badges">
+  <div className="badges-grid">
 
-  <div style={{ maxWidth: "100%", textAlign: "center" }}>
-    <a
-      href="https://www.thinkers360.com/tl/badge/31895/7497"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img
-        width="220"
-        src="https://www.thinkers360.com/tl/assets/images/badges/top25/Top%2025%20-%20AI%20Governance.png"
-        alt="Top 25 Thought Leader in AI Governance – Thinkers360"
-      />
-    </a>
+    {/* Badge 1 */}
+    <div className="badge-card">
+      <a
+        href="https://www.thinkers360.com/tl/badge/31895/7496"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="https://www.thinkers360.com/tl/assets/images/badges/top10/Top%2010%20-%20AI%20Ethics.png"
+          alt="Top 10 Thought Leader in AI Ethics – Thinkers360"
+        />
+      </a>
+      <h3>Top 10 Thought Leader</h3>
+      <p>AI Ethics · Thinkers360</p>
+    </div>
+
+    {/* Badge 2 */}
+    <div className="badge-card">
+      <a
+        href="https://www.thinkers360.com/tl/badge/31895/7497"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="https://www.thinkers360.com/tl/assets/images/badges/top25/Top%2025%20-%20AI%20Governance.png"
+          alt="Top 25 Thought Leader in AI Governance – Thinkers360"
+        />
+      </a>
+      <h3>Top 25 Thought Leader</h3>
+      <p>AI Governance · Thinkers360</p>
+    </div>
+
   </div>
 </section>
+
 
         <section>
           <h2>What This Recognition Represents</h2>
