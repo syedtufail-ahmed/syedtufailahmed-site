@@ -1,4 +1,4 @@
-export default function ExecutiveCredentials() {
+ship.jpgexport default function ExecutiveCredentials() {
   return (
     <main className="section">
       <div className="container">
@@ -66,7 +66,7 @@ export default function ExecutiveCredentials() {
 
   <div className="membership-card">
  <img
-  src="/pmi-certified-member.png"
+  src="/pmi_membership.jpg"
   alt="PMI Certified Member Certificate"
   className="membership-image-large"
 />
