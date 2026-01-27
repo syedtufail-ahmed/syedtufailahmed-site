@@ -65,11 +65,23 @@ export default function ExecutiveCredentials() {
   </h2>
 
   <div className="membership-card">
- <img
-  src="/pmi_membership.jpg"
-  alt="PMI Certified Member Certificate"
-  className="membership-image-large"
-/>
+<div className="membership-image-wrapper">
+  <img
+    src="/pmi-certified-member.png"
+    alt="PMI Certified Member Certificate"
+    className="membership-image-thumb"
+  />
+
+  <a
+    href="/pmi-certified-member.png"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="view-certificate-btn"
+  >
+    View Full Certificate
+  </a>
+</div>
+
     <div className="membership-content">
       <h3>PMI® Certified Member</h3>
       <p className="membership-org">
@@ -81,6 +93,10 @@ export default function ExecutiveCredentials() {
         for project, program, and portfolio management, committed to PMI’s
         Code of Ethics and Professional Conduct.
       </p>
+      <p className="verification-note">
+  Certificate issued by Project Management Institute (PMI).  
+  Membership details verifiable upon request.
+</p>
     </div>
   </div>
 </section>
