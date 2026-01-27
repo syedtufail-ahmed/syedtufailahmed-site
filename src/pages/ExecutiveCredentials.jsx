@@ -67,13 +67,13 @@ export default function ExecutiveCredentials() {
   <div className="membership-card">
 <div className="membership-image-wrapper">
   <img
-    src="/pmi-certified-member.png"
+    src="/pmi-certified-member.jpg"
     alt="PMI Certified Member Certificate"
     className="membership-image-thumb"
   />
 
   <a
-    href="/pmi-certified-member.png"
+    href="/pmi-certified-member.jpg"
     target="_blank"
     rel="noopener noreferrer"
     className="view-certificate-btn"
