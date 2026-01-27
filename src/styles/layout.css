@@ -101,3 +101,43 @@ body {
 body {
   scroll-padding-top: 80px; /* adjust if header height differs */
 }
+.credentials-badges {
+  margin: 4rem 0;
+}
+
+.badges-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.badge-card img {
+  width: 220px;
+  margin-bottom: 1.2rem;
+  transition: transform 0.25s ease;
+}
+
+.badge-card img:hover {
+  transform: translateY(-4px);
+}
+
+.badge-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.badge-card p {
+  font-size: 0.95rem;
+  color: #b5b5b5;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .badges-grid {
+    grid-template-columns: 1fr;
+  }
+}
