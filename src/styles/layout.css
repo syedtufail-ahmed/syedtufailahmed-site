@@ -164,7 +164,9 @@ body {
   padding: 2rem;
   border-radius: 14px;
 }
-
+.membership-image-large {
+  width: 100%;
+  max-width
 .membership-image {
   width: 100%;
   max-width: 220px;
