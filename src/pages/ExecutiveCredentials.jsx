@@ -66,7 +66,7 @@ export default function ExecutiveCredentials() {
 
   <div className="membership-card">
     <img
-      src="/pmi-certified-member.png"
+      src="/pmi_membership.jpg"
       alt="PMI Certified Member – Project Management Institute"
       className="membership-image"
     />
