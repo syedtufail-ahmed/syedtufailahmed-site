@@ -1,4 +1,4 @@
-default function ExecutiveCredentials() {
+export default function ExecutiveCredentials() {
   return (
     <main className="section">
       <div className="container">
