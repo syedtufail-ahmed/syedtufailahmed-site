@@ -5,7 +5,6 @@ export default function ExecutiveCredentials() {
     <>
       <CredentialsSchema />
      
-    </>
     <main className="section">
       <div className="container">
 
@@ -139,5 +138,6 @@ export default function ExecutiveCredentials() {
 
       </div>
     </main>
-  );
+  </>
+      );
 }
