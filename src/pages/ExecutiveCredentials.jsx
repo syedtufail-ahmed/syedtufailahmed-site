@@ -49,6 +49,36 @@ export default function ExecutiveCredentials() {
   </div>
 </section>
 
+<section className="credential-card influence-card">
+  <img
+    src="/credentials/favikon-tufail-ahmed.webp"
+    alt="Favikon Top 200 Creators Saudi Arabia – Tufail Ahmed"
+    width="420"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+
+  <h3>Favikon Influence Ranking</h3>
+
+  <p className="credential-meta">
+    Ranked <strong>#4</strong> in Saudi Arabia · AI Research & Innovation
+  </p>
+
+  <p className="credential-description">
+    Independent creator influence ranking based on content quality, engagement,
+    domain authority, and network impact across LinkedIn and professional platforms.
+  </p>
+
+  <a
+    href="https://www.favikon.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="credential-link"
+  >
+    View Ranking Methodology
+  </a>
+</section>
 
         <section>
           <h2>What This Recognition Represents</h2>
