@@ -1,19 +1,7 @@
 import CredentialsSchema from "../components/CredentialsSchema";
-import SEO from "../components/SEO";
-
 
 export default function ExecutiveCredentials() {
   return (
-    <>
-  <SEO
-    title="Executive Credentials & Independent Recognition | Syed Tufail Ahmed"
-    description="Independent third-party recognition of Syed Tufail Ahmed’s work in AI Ethics, AI Governance, and responsible digital transformation."
-    url="https://www.syedtufailahmed.com/executive-credentials"
-    image="https://www.syedtufailahmed.com/og/executive-credentials.png"
-  />
-
-  {/* rest of page */}
-
     <>
       <CredentialsSchema />
 
