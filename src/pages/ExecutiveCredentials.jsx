@@ -1,5 +1,11 @@
+import CredentialsSchema from "../components/CredentialsSchema";
+
 export default function ExecutiveCredentials() {
   return (
+    <>
+      <CredentialsSchema />
+     
+    </>
     <main className="section">
       <div className="container">
 
