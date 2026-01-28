@@ -1,4 +1,6 @@
 import CredentialsSchema from "../components/CredentialsSchema";
+import SEO from "../components/SEO";
+
 
 export default function ExecutiveCredentials() {
   return (
