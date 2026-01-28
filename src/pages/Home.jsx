@@ -14,7 +14,7 @@ export default function Home() {
           name="description"
           content="Syed Tufail Ahmed is an AI governance and public sector digital transformation leader based in Saudi Arabia."
         />
-
+ </Helmet>
         {/* Open Graph (LinkedIn uses this) */}
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Syed Tufail Ahmed | AI & Digital Transformation Leader" />
@@ -23,7 +23,7 @@ export default function Home() {
         <meta property="og:url" content="https://www.syedtufailahmed.com/" />
         <meta property="og:image" content="https://www.syedtufailahmed.com/og/home.png" />
         <link rel="canonical" href="https://www.syedtufailahmed.com/" />
-      </Helmet>
+     
 
       <PersonSchema />
       <BookSchema />
