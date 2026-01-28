@@ -6,7 +6,7 @@ export default function Hero() {
         {/* Left: Profile image */}
         <div className="hero-image">
           <img
-            src="/images/tufail-ahmed-portrait.webp"
+            src="/tufail-ahmed-portrait.webp"
             alt="Syed Tufail Ahmed – AI Governance and Public Sector Digital Transformation Leader"
             width="360"
             height="360"
