@@ -251,3 +251,42 @@ body {
   opacity: 0.85;
 }
 
+.hero {
+  padding: 6rem 0;
+  background: radial-gradient(
+    circle at left,
+    #0b1c3d 0%,
+    #05070d 60%
+  );
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.hero-image img {
+  border-radius: 4px;
+  background: #fff;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-size: 1.5rem;
+  color: #9aa4b2;
+  margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  color: #cfd6e1;
+}
