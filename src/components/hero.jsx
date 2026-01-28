@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-export default function Home() {
+export default function Hero() {
   return (
     <>
       <Helmet>

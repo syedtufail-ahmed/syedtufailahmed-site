@@ -2,13 +2,14 @@ import { Helmet } from "react-helmet-async";
 import Button from "../components/Button";
 import PersonSchema from "../components/PersonSchema";
 import BookSchema from "../components/BookSchema";
+import Hero from "../components/Hero";
 
 export default function Home() {
   return (
     <>
       <PersonSchema />
       <BookSchema />
-
+<Hero />
 
      <Helmet>
   <title>Syed Tufail Ahmed | AI & Digital Transformation Leader</title>
