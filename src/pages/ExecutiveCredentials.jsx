@@ -51,7 +51,7 @@ export default function ExecutiveCredentials() {
 
 <section className="credential-card influence-card">
   <img
-    src="/credentials/favikon-tufail-ahmed.webp"
+    src="/favikon-tufail-ahmed.webp"
     alt="Favikon Top 200 Creators Saudi Arabia – Tufail Ahmed"
     width="420"
     height="520"
