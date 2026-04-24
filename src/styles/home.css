@@ -3,7 +3,8 @@
 /* ── HERO ──────────────────────────────────────────────────── */
 
 .hero {
-  min-height: calc(100vh - 70px);
+  min-height: 100dvh;
+  padding-top: 68px; /* offset for sticky navbar */
   background: radial-gradient(
     1200px 700px at 8% 20%,
     #0d2742 0%,
@@ -13,6 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
