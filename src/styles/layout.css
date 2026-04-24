@@ -22,7 +22,8 @@ body {
 .nav {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 22px 2rem;
+  padding: 0 2rem;
+  height: 68px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -99,7 +100,7 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 body {
-  scroll-padding-top: 80px; /* adjust if header height differs */
+  scroll-padding-top: 68px;
 }
 .credentials-badges {
   margin: 4rem 0;
