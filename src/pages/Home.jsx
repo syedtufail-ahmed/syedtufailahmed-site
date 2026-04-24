@@ -86,7 +86,7 @@ export default function Home() {
             <div className="hero-photo-wrap">
               <img
                 className="hero-photo"
-                src="/profile.jpg"
+                src="/profilephoto-round.png"
                 alt="Syed Tufail Ahmed — AI Governance Leader and Author"
                 width="300"
                 height="300"
