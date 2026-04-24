@@ -11,6 +11,7 @@ export default function Navbar() {
           <NavLink to="/writing">Writing</NavLink>
           <NavLink to="/executive-credentials">Credentials</NavLink>
           <NavLink to="/book">Book</NavLink>
+          <NavLink to="/speaking">Speaking</NavLink>
         </div>
       </nav>
     </header>
