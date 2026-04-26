@@ -23,7 +23,7 @@ export default function BookSchema() {
     "bookFormat": "https://schema.org/EBook",
     "image": "https://www.syedtufailahmed.com/book.png",
     "url": "https://www.syedtufailahmed.com/book",
-    "sameAs": "https://www.amazon.com/dp/B0CZYQ2JNR",
+    "sameAs": "https://www.amazon.com/Human-Loop-Reclaiming-Authority-Intelligent/dp/B0GGCJFTBQ",
     "description": "A blueprint for leaders, organisations, and nations who believe AI should amplify human potential rather than replace it. Examines how to scale AI capability while preserving human judgment, accountability, and institutional trust.",
     "about": [
       { "@type": "Thing", "name": "Artificial Intelligence Governance" },
@@ -38,7 +38,7 @@ export default function BookSchema() {
     },
     "offers": {
       "@type": "Offer",
-      "url": "https://www.amazon.com/dp/B0CZYQ2JNR",
+      "url": "https://www.amazon.com/Human-Loop-Reclaiming-Authority-Intelligent/dp/B0GGCJFTBQ",
       "availability": "https://schema.org/InStock",
       "seller": {
         "@type": "Organization",

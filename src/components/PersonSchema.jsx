@@ -85,7 +85,7 @@ export default function PersonSchema() {
     ],
     "sameAs": [
       "https://www.linkedin.com/in/tufailsa/",
-      "https://www.amazon.com/dp/B0CZYQ2JNR"
+      "https://www.amazon.com/Human-Loop-Reclaiming-Authority-Intelligent/dp/B0GGCJFTBQ"
     ]
   };
 
