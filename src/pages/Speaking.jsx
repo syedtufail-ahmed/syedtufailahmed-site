@@ -95,19 +95,31 @@ export default function Speaking() {
 
       {/* ── HERO ── */}
       <section className="speaking-hero">
-        <div className="speaking-hero-inner">
-          <p className="section-eyebrow">Speaking</p>
-          <h1 className="speaking-title">
-            Keynotes That Make Leaders<br />Think Differently.
-          </h1>
-          <p className="speaking-intro">
-            I don't come to tell your audience that AI is exciting. I come to
-            ask the questions that don't fit in a product demo — and leave them
-            with frameworks they'll still use six months later.
-          </p>
-          <a href="mailto:syed@syedtufailahmed.com" className="btn btn-primary speaking-cta">
-            Invite Me to Speak →
-          </a>
+        <div className="speaking-hero-grid">
+          <div className="speaking-hero-text">
+            <p className="section-eyebrow">Speaking</p>
+            <h1 className="speaking-title">
+              Keynotes That Make Leaders<br />Think Differently.
+            </h1>
+            <p className="speaking-intro">
+              I don't come to tell your audience that AI is exciting. I come to
+              ask the questions that don't fit in a product demo — and leave them
+              with frameworks they'll still use six months later.
+            </p>
+            <a href="mailto:syed@syedtufailahmed.com" className="btn btn-primary speaking-cta">
+              Invite Me to Speak →
+            </a>
+          </div>
+          <div className="speaking-hero-photo">
+            <img
+              src="/speaker.png"
+              alt="Syed Tufail Ahmed — Keynote Speaker"
+              width="520"
+              height="390"
+              loading="eager"
+              decoding="async"
+            />
+          </div>
         </div>
       </section>
 
