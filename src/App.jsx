@@ -8,6 +8,7 @@ import HumanInTheLoop from "./pages/HumanInTheLoop";
 import HumanInTheLoopAIGovernance from "./pages/writing/HumanInTheLoopAIGovernance";
 import ExecutiveCredentials from "./pages/ExecutiveCredentials";
 import Book from "./pages/Book";
+import Speaking from "./pages/Speaking";
 
 import AnalyticsTracker from "./AnalyticsTracker";
 
@@ -42,6 +43,11 @@ export default function App() {
           <Route
             path="book"
             element={<Book />}
+          />
+
+          <Route
+            path="speaking"
+            element={<Speaking />}
           />
 
         </Route>
