@@ -9,6 +9,7 @@ import "./styles/typography.css";
 import "./styles/layout.css";
 import "./styles/article.css";
 import "./styles/home.css";
+import "./styles/speaking.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
