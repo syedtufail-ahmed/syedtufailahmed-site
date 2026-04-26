@@ -13,6 +13,7 @@ import "./styles/speaking.css";
 import "./styles/about.css";
 import "./styles/book.css";
 import "./styles/writing.css";
+import "./styles/essay.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
