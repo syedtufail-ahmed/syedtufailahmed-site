@@ -10,6 +10,7 @@ import "./styles/layout.css";
 import "./styles/article.css";
 import "./styles/home.css";
 import "./styles/speaking.css";
+import "./styles/about.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
