@@ -3,7 +3,7 @@
 /* ── HERO ──────────────────────────────────────────────────── */
 
 .speaking-hero {
-  padding: 7rem 2rem 5rem;
+  padding: 5rem 2rem 4rem;
   border-bottom: 1px solid var(--border);
   background: radial-gradient(
     900px 500px at 10% 30%,
@@ -13,9 +13,29 @@
   );
 }
 
-.speaking-hero-inner {
-  max-width: 760px;
+.speaking-hero-grid {
+  max-width: 1100px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 520px;
+  gap: 4rem;
+  align-items: center;
+}
+
+.speaking-hero-text {
+  max-width: 560px;
+}
+
+.speaking-hero-photo {
+  position: relative;
+}
+
+.speaking-hero-photo img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+  object-fit: cover;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255,255,255,0.05);
 }
 
 .speaking-title {
@@ -280,7 +300,24 @@
 
 /* ── RESPONSIVE ─────────────────────────────────────────────── */
 
+@media (max-width: 1100px) {
+  .speaking-hero-grid {
+    grid-template-columns: 1fr 420px;
+    gap: 3rem;
+  }
+}
+
 @media (max-width: 900px) {
+  .speaking-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .speaking-hero-photo {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
   .speaking-formats-inner {
     grid-template-columns: repeat(2, 1fr);
   }
