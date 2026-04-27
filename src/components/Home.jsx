@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import PersonSchema from "../components/PersonSchema";
 import BookSchema from "../components/BookSchema";
+import CredentialsSchema from "../components/CredentialsSchema";
 
 export default function Home() {
   return (
