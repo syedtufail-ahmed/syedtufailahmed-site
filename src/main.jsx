@@ -14,6 +14,7 @@ import "./styles/about.css";
 import "./styles/book.css";
 import "./styles/writing.css";
 import "./styles/essay.css";
+import "./styles/credentials.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
