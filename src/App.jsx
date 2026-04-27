@@ -36,7 +36,7 @@ export default function App() {
           />
 
           <Route
-            path="executive-credentials"
+            path="ExecutiveCredentials"
             element={<ExecutiveCredentials />}
           />
 
