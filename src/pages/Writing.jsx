@@ -85,12 +85,22 @@ const articles = [
 
 const onSite = [
   {
+    title: "AI Governance in Context: Why Cultural Accountability Models Matter for Global AI Frameworks",
+    description:
+      "A submission to the UN Global Dialogue on AI Governance. Why global frameworks built on process-based accountability fail in personal-accountability cultures — and the Three-Question Framework that fixes it.",
+    date: "April 2026",
+    to: "/writing/cultural-accountability-ai-governance",
+    tags: ["UN Framework", "Cultural Accountability", "GCC", "AI Governance"],
+    featured: true,
+  },
+  {
     title: "Human-in-the-Loop AI: Reclaiming Human Authority",
     description:
       "Why the future of AI depends not on automation alone, but on preserving human judgment, accountability, and institutional control at scale.",
     date: "2025",
-    to: "/writing/human-in-the-loop",
+    to: "/writing/human-in-the-loop-ai-governance",
     tags: ["Human-in-the-Loop", "AI Ethics", "Governance"],
+    featured: false,
   },
 ];
 
@@ -327,10 +337,13 @@ export default function Writing() {
           <h2 className="writing-section-heading">Long-form writing</h2>
           <div className="essays-list">
             {onSite.map((a) => (
-              <Link key={a.title} to={a.to} className="essay-card">
+              <Link key={a.title} to={a.to} className={`essay-card ${a.featured ? "essay-card--featured" : ""}`}>
                 <div className="essay-card-inner">
                   <div>
-                    <p className="essay-date">{a.date}</p>
+                    <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", marginBottom: "0.5rem" }}>
+                      <p className="essay-date" style={{ margin: 0 }}>{a.date}</p>
+                      {a.featured && <span className="edition-latest-badge">Featured</span>}
+                    </div>
                     <h3 className="essay-title">{a.title}</h3>
                     <p className="essay-desc">{a.description}</p>
                     <div className="edition-tags" style={{ marginTop: "1rem" }}>
