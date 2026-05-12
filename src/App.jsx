@@ -11,7 +11,7 @@ import Book from "./pages/Book";
 import Speaking from "./pages/Speaking";
 
 import AnalyticsTracker from "./AnalyticsTracker";
-
+import CulturalAccountabilityAIGovernance from "./pages/writing/CulturalAccountabilityAIGovernance";
 export default function App() {
   return (
     <>
@@ -49,7 +49,8 @@ export default function App() {
             path="speaking"
             element={<Speaking />}
           />
-
+// then inside your routes:
+<Route path="writing/cultural-accountability-ai-governance" element={<CulturalAccountabilityAIGovernance />} />
         </Route>
       </Routes>
     </>
