@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import Layout from "./components/Layout";
 
 import Home from "./pages/Home";
@@ -53,6 +54,9 @@ export default function App() {
 <Route path="writing/cultural-accountability-ai-governance" element={<CulturalAccountabilityAIGovernance />} />
         </Route>
       </Routes>
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </>
   );
 }
