@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "npm run build:client && npm run build:server && node prerender.js",
+    "build": "node node_modules/vite/bin/vite.js build && BUILD_TARGET=server node node_modules/vite/bin/vite.js build && node prerender.js",
     "build:client": "node node_modules/vite/bin/vite.js build",
     "build:server": "BUILD_TARGET=server node node_modules/vite/bin/vite.js build",
     "preview": "vite preview"
