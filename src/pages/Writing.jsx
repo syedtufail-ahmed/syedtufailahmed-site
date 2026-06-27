@@ -110,7 +110,7 @@ const articles = [
     platform: "Medium",
     description:
       "Essays and analysis on AI governance, Human-in-the-Loop frameworks, responsible AI deployment, and the future of human authority in intelligent systems — published on Medium.",
-    url: "https://medium.com/@syedtufailahmed",
+    url: "https://medium.com/@syed_86821",
     tags: ["AI Governance", "Human-in-the-Loop", "Responsible AI"],
   },
 ];
