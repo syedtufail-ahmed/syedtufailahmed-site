@@ -144,6 +144,9 @@ export default function About() {
             of AI strategy, accountable system design, and large-scale public-sector
             transformation — with a specific focus on how organisations move from AI
             experimentation into production-scale deployment that is genuinely trustworthy.
+            Ranked <strong>#1 in AI Governance &amp; Policy in Saudi Arabia</strong> and{" "}
+            <strong>#11 in AI Safety &amp; Tech Ethics worldwide</strong> by Favikon (June 2026),
+            and recognised as a <strong>Thinkers360 Certified Expert</strong> in AI Governance and AI.
           </p>
 
           <p className="about-body">
@@ -160,6 +163,11 @@ export default function About() {
               <em>Human in the Loop: Reclaiming Human Authority in an Age of Intelligent Systems</em>
             </Link>
             {" "}— a blueprint for leaders who believe that AI should scale human judgment, not replace it.
+            The book has been recognised among the{" "}
+            <a href="https://www.thinkers360.com/25-best-agentic-ai-books-written-by-thinkers360-experts/" target="_blank" rel="noopener noreferrer">
+              <strong>25 Best Agentic AI Books</strong>
+            </a>
+            {" "}by Thinkers360 Experts.
           </p>
 
           <blockquote className="about-quote">
@@ -283,6 +291,12 @@ export default function About() {
             <span className="cert-badge">PMI Essentials: Seven AI Project Patterns</span>
             <span className="cert-badge">Top 10 · AI Ethics · Thinkers360</span>
             <span className="cert-badge">Top 25 · AI Governance · Thinkers360</span>
+            <span className="cert-badge">Thinkers360 Certified Expert · AI Governance</span>
+            <span className="cert-badge">Thinkers360 Certified Expert · AI</span>
+            <span className="cert-badge">#1 AI Governance &amp; Policy · Saudi Arabia · Favikon</span>
+            <span className="cert-badge">#1 AI Safety &amp; Tech Ethics · Saudi Arabia · Favikon</span>
+            <span className="cert-badge">#2 AI &amp; ML Researchers · LinkedIn · Saudi Arabia · Favikon</span>
+            <span className="cert-badge">#11 AI Safety &amp; Tech Ethics · LinkedIn · Worldwide · Favikon</span>
             <span className="cert-badge">ORCID: 0009-0009-3435-4361</span>
           </div>
         </div>
