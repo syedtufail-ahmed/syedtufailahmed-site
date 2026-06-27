@@ -246,12 +246,13 @@ export default function Home() {
         <div className="home-section-inner">
           <p className="section-eyebrow">Writing & Research</p>
           <h2 className="section-heading">
-            A newsletter. Research papers. Essays.
+            A newsletter. Peer-reviewed papers. Essays.
           </h2>
           <p className="section-body">
             The <em>Human in the Loop</em> newsletter reaches 1,662 subscribers monthly.
-            Alongside it: three independent research papers spanning AI governance,
-            data localization, and healthcare AI — plus LinkedIn articles and long-form essays.
+            Alongside it: five research papers — including two currently under peer review at
+            <em> npj Digital Medicine</em> (Nature Portfolio) and <em>AI &amp; Society</em> (Springer) —
+            plus LinkedIn articles and long-form essays.
           </p>
 
           <div className="home-writing-grid">
@@ -284,9 +285,9 @@ export default function Home() {
             </div>
 
             <div className="home-writing-card">
-              <p className="home-writing-type">Research Paper</p>
-              <p className="home-writing-title">Decision-Centric HITL Governance</p>
-              <p className="home-writing-meta">IEEE 7000-2021 · Independent Research · 2026</p>
+              <p className="home-writing-type">Under Review · npj Digital Medicine</p>
+              <p className="home-writing-title">Responsible AI in Healthcare</p>
+              <p className="home-writing-meta">Nature Portfolio · Perspective · 2026</p>
               <Link to="/writing" className="home-writing-link">View all papers →</Link>
             </div>
 
