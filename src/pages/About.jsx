@@ -54,9 +54,10 @@ const career = [
 ];
 
 const focusAreas = [
-  "AI Transformation Strategy → Execution Operating Models",
+  "AI Governance, Risk & Accountability Architecture",
   "Human-in-the-Loop & Decision-Centric AI Systems",
-  "AI Governance, Risk & Accountability Frameworks",
+  "Responsible AI for Healthcare & Scientific Discovery",
+  "AI Transformation Strategy → Execution Operating Models",
   "Enterprise & Public-Sector Platform Transformation",
   "Program & Portfolio Leadership at Scale",
 ];
@@ -260,9 +261,9 @@ export default function About() {
 
           <div className="edu-grid">
             <div className="edu-card">
-              <p className="edu-degree">Public Policy with AI</p>
-              <p className="edu-school">Lee Kuan Yew School of Public Policy</p>
-              <p className="edu-year">2026</p>
+              <p className="edu-degree">Executive Education — AI &amp; Public Policy</p>
+              <p className="edu-school">Lee Kuan Yew School of Public Policy, NUS</p>
+              <p className="edu-year">March – August 2026 · In Progress</p>
             </div>
             <div className="edu-card">
               <p className="edu-degree">Postgraduate Certificate · AI & Digital Imaging</p>
@@ -282,6 +283,7 @@ export default function About() {
             <span className="cert-badge">PMI Essentials: Seven AI Project Patterns</span>
             <span className="cert-badge">Top 10 · AI Ethics · Thinkers360</span>
             <span className="cert-badge">Top 25 · AI Governance · Thinkers360</span>
+            <span className="cert-badge">ORCID: 0009-0009-3435-4361</span>
           </div>
         </div>
       </section>
