@@ -23,10 +23,29 @@ const thinkers360 = [
   },
 ];
 
+const thinkers360Certs = [
+  {
+    title: "Certified Expert · AI Governance",
+    issued: "25 June 2026",
+    expires: "25 June 2027",
+    color: "#38bdf8",
+  },
+  {
+    title: "Certified Expert · AI",
+    issued: "21 June 2026",
+    expires: "21 June 2027",
+    color: "#f59e0b",
+  },
+];
+
 const favikon = [
-  { rank: "#1", label: "AI Safety & Tech Ethics · KSA" },
-  { rank: "#2", label: "AI Research & Innovation · KSA" },
-  { rank: "Top 200", label: "Creators · Saudi Arabia" },
+  { rank: "#1", label: "AI Governance & Policy · Saudi Arabia", highlight: true },
+  { rank: "#1", label: "AI Safety & Tech Ethics · Saudi Arabia", highlight: true },
+  { rank: "#2", label: "AI & ML Researchers · LinkedIn · Saudi Arabia", highlight: false },
+  { rank: "#9", label: "Tech & Software · LinkedIn · Saudi Arabia", highlight: false },
+  { rank: "#11", label: "AI Safety & Tech Ethics · LinkedIn · Worldwide", highlight: false },
+  { rank: "#144", label: "LinkedIn Overall · Saudi Arabia", highlight: false },
+  { rank: "85.1", label: "Favikon Score · Top 200 Creators · Saudi Arabia", highlight: false },
 ];
 
 const pillars = [
@@ -60,7 +79,33 @@ const certifications = [
   { name: "Six Sigma Green Belt", org: "Quality Management", type: "Professional Certification" },
   { name: "PMI Essentials: Seven AI Project Patterns", org: "Project Management Institute", type: "AI Certification" },
   { name: "Postgraduate Certificate · AI & Digital Imaging", org: "Indian Institute of Science (IISc)", type: "Academic Credential" },
-  { name: "Public Policy with AI", org: "Lee Kuan Yew School of Public Policy", type: "Graduate Program · 2026" },
+  { name: "Executive Education — AI & Public Policy", org: "Lee Kuan Yew School of Public Policy, NUS", type: "In Progress · March – August 2026" },
+];
+
+const research = [
+  {
+    title: "Responsible AI in Healthcare: From Ethical Intent to Clinical-Grade Decision Governance",
+    venue: "npj Digital Medicine · Nature Portfolio",
+    status: "Under Review",
+    year: "2026",
+    id: "0efabad3-a3a5-40e0-840f-7e541b1c6e59",
+  },
+  {
+    title: "Governance by Design: Why AI Accountability Must Be Architected, Not Audited",
+    venue: "AI & Society · Springer",
+    status: "Under Review",
+    year: "2026",
+    id: "ef5c457b-94be-4428-b3b5-ca924e100015",
+  },
+];
+
+const bookRecognition = [
+  {
+    label: "25 Best Agentic AI Books",
+    body: "Thinkers360 Experts",
+    url: "https://www.thinkers360.com/25-best-agentic-ai-books-written-by-thinkers360-experts/",
+    year: "2026",
+  },
 ];
 
 const affiliations = [
@@ -68,6 +113,8 @@ const affiliations = [
   "SDAIA",
   "Diriyah Art Futures",
   "Thinkers360",
+  "RAGN · Global Ambassador",
+  "GCRAI · Global Ambassador",
   "Vision 2030 Programs",
 ];
 
@@ -80,21 +127,19 @@ export default function ExecutiveCredentials() {
         <title>Executive Credentials | Syed Tufail Ahmed — AI Governance Recognition</title>
         <meta
           name="description"
-          content="Independent recognition of Syed Tufail Ahmed's work in AI governance and ethics. Thinkers360 Top 10 AI Ethics, Top 25 AI Governance, Favikon #1 AI Safety KSA, PMI® Certified Member."
+          content="Independent recognition of Syed Tufail Ahmed's work in AI governance and ethics. Thinkers360 Top 10 AI Ethics, Top 25 AI Governance, Certified Expert AI Governance, Favikon #1 AI Governance & Policy Saudi Arabia."
         />
         <link rel="canonical" href="https://www.syedtufailahmed.com/executive-credentials" />
         <meta
           name="keywords"
-          content="Syed Tufail Ahmed credentials, Thinkers360 AI governance, AI ethics thought leader Saudi Arabia, Favikon KSA ranking, PMI certified AI leader, Vision 2030 AI expert"
+          content="Syed Tufail Ahmed credentials, Thinkers360 AI governance, AI ethics thought leader Saudi Arabia, Favikon KSA ranking, PMI certified AI leader, Vision 2030 AI expert, npj Digital Medicine"
         />
         <meta name="robots" content="index, follow" />
-
         <meta property="og:type" content="profile" />
         <meta property="og:title" content="Executive Credentials | Syed Tufail Ahmed" />
-        <meta property="og:description" content="Thinkers360 Top 10 AI Ethics · Top 25 AI Governance · Favikon #1 AI Safety KSA · PMI® Certified Member" />
+        <meta property="og:description" content="Thinkers360 Top 10 AI Ethics · Top 25 AI Governance · Certified Expert · Favikon #1 AI Governance & Policy Saudi Arabia" />
         <meta property="og:url" content="https://www.syedtufailahmed.com/executive-credentials" />
         <meta property="og:image" content="https://www.syedtufailahmed.com/og/home.png" />
-
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Executive Credentials | Syed Tufail Ahmed" />
         <meta name="twitter:description" content="Independent recognition in AI governance, AI ethics, and responsible digital transformation." />
@@ -115,6 +160,16 @@ export default function ExecutiveCredentials() {
           </p>
           <div className="creds-hero-stats">
             <div className="creds-stat">
+              <span className="creds-stat-num">#1</span>
+              <span className="creds-stat-label">AI Governance & Policy · Saudi Arabia · Favikon</span>
+            </div>
+            <div className="creds-stat-div" />
+            <div className="creds-stat">
+              <span className="creds-stat-num">#1</span>
+              <span className="creds-stat-label">AI Safety & Tech Ethics · Saudi Arabia · Favikon</span>
+            </div>
+            <div className="creds-stat-div" />
+            <div className="creds-stat">
               <span className="creds-stat-num">Top 10</span>
               <span className="creds-stat-label">AI Ethics · Thinkers360</span>
             </div>
@@ -125,29 +180,23 @@ export default function ExecutiveCredentials() {
             </div>
             <div className="creds-stat-div" />
             <div className="creds-stat">
-              <span className="creds-stat-num">#1</span>
-              <span className="creds-stat-label">AI Safety & Tech Ethics · KSA</span>
-            </div>
-            <div className="creds-stat-div" />
-            <div className="creds-stat">
-              <span className="creds-stat-num">9,700+</span>
+              <span className="creds-stat-num">10,300+</span>
               <span className="creds-stat-label">LinkedIn Followers</span>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ── THINKERS360 ── */}
+      {/* ── THINKERS360 RANKINGS ── */}
       <section className="creds-section">
         <div className="creds-section-inner">
           <p className="section-eyebrow">Thinkers360</p>
-          <h2 className="creds-h2">Global Thought Leadership Recognition</h2>
+          <h2 className="creds-h2">Global Thought Leadership Rankings</h2>
           <p className="creds-body">
-            Thinkers360 is an independent platform that ranks thought leaders across
-            AI, technology, and business domains based on content quality, reach,
-            and domain authority — not follower count or paid promotion.
+            Thinkers360 independently ranks thought leaders across AI, technology,
+            and business domains based on content quality, reach, and domain authority —
+            not follower count or paid promotion.
           </p>
-
           <div className="badges-grid">
             {thinkers360.map((b) => (
               <div key={b.category} className="badge-card">
@@ -165,26 +214,54 @@ export default function ExecutiveCredentials() {
         </div>
       </section>
 
-      {/* ── FAVIKON ── */}
+      {/* ── THINKERS360 CERTIFICATIONS ── */}
       <section className="creds-section creds-section--alt">
         <div className="creds-section-inner">
-          <p className="section-eyebrow">Favikon</p>
-          <h2 className="creds-h2">Creator Influence Ranking · Saudi Arabia</h2>
+          <p className="section-eyebrow">Thinkers360 · Expert Certifications</p>
+          <h2 className="creds-h2">Certified Expert Recognition</h2>
+          <p className="creds-body">
+            Thinkers360 Expert Certifications are awarded following a rigorous,
+            data-driven audit of real-world impact — including professional experience,
+            academic credentials, published intellectual property, and peer-recognised awards.
+            Unlike social media influence rankings, these certifications validate verified
+            subject matter mastery.
+          </p>
+          <div className="certs-list" style={{ marginTop: "1.5rem" }}>
+            {thinkers360Certs.map((c) => (
+              <div key={c.title} className="cert-card">
+                <div>
+                  <p className="cert-name" style={{ color: c.color }}>{c.title}</p>
+                  <p className="cert-org">Thinkers360 · Issued {c.issued} · Expires {c.expires}</p>
+                </div>
+                <span className="cert-type">Certified Expert</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── FAVIKON ── */}
+      <section className="creds-section">
+        <div className="creds-section-inner">
+          <p className="section-eyebrow">Favikon · June 2026</p>
+          <h2 className="creds-h2">Creator Influence Rankings · Saudi Arabia & Global</h2>
           <p className="creds-body">
             Favikon ranks professional content creators based on content quality,
             engagement rates, domain authority, and network impact — independently
-            of follower counts or paid placements.
+            of follower counts or paid placements. Score: 85.1 · Top 200 Creators · Saudi Arabia.
           </p>
-
           <div className="favikon-grid">
             {favikon.map((f) => (
-              <div key={f.label} className="favikon-card">
-                <p className="favikon-rank">{f.rank}</p>
+              <div
+                key={f.label}
+                className="favikon-card"
+                style={f.highlight ? { borderColor: "rgba(167,139,250,0.4)", background: "rgba(167,139,250,0.06)" } : {}}
+              >
+                <p className="favikon-rank" style={f.highlight ? { color: "#a78bfa" } : {}}>{f.rank}</p>
                 <p className="favikon-label">{f.label}</p>
               </div>
             ))}
           </div>
-
           <div className="favikon-image-wrap">
             <img
               src="/favikon-tufail-ahmed.webp"
@@ -196,12 +273,70 @@ export default function ExecutiveCredentials() {
         </div>
       </section>
 
-      {/* ── IDENTITY PILLARS ── */}
+      {/* ── BOOK RECOGNITION ── */}
+      <section className="creds-section creds-section--alt">
+        <div className="creds-section-inner">
+          <p className="section-eyebrow">Book Recognition</p>
+          <h2 className="creds-h2">Human in the Loop — Independent Recognition</h2>
+          <p className="creds-body">
+            Independent recognition of{" "}
+            <Link to="/book">
+              <em>Human in the Loop: Reclaiming Human Authority in an Age of Intelligent Systems</em>
+            </Link>{" "}
+            by third-party expert bodies.
+          </p>
+          <div className="certs-list" style={{ marginTop: "1.5rem" }}>
+            {bookRecognition.map((b) => (
+              <div key={b.label} className="cert-card">
+                <div>
+                  <p className="cert-name">
+                    <a href={b.url} target="_blank" rel="noopener noreferrer" style={{ color: "inherit" }}>
+                      {b.label}
+                    </a>
+                  </p>
+                  <p className="cert-org">{b.body} · {b.year}</p>
+                </div>
+                <span className="cert-type">Book Recognition</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── RESEARCH UNDER REVIEW ── */}
       <section className="creds-section">
+        <div className="creds-section-inner">
+          <p className="section-eyebrow">Academic Research</p>
+          <h2 className="creds-h2">Papers Under Peer Review</h2>
+          <p className="creds-body">
+            Peer-reviewed research submitted to Nature Portfolio and Springer journals,
+            representing a developing body of work in clinical AI governance and
+            accountability architecture.
+          </p>
+          <div className="certs-list" style={{ marginTop: "1.5rem" }}>
+            {research.map((r) => (
+              <div key={r.id} className="cert-card">
+                <div>
+                  <p className="cert-name">{r.title}</p>
+                  <p className="cert-org">{r.venue} · {r.year}</p>
+                  <p style={{ fontSize: "0.72rem", color: "var(--text-muted, #888)", marginTop: "0.25rem", fontFamily: "monospace" }}>
+                    ID: {r.id}
+                  </p>
+                </div>
+                <span className="cert-type" style={{ color: "#a78bfa", background: "rgba(167,139,250,0.08)", border: "1px solid rgba(167,139,250,0.2)" }}>
+                  {r.status}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── IDENTITY PILLARS ── */}
+      <section className="creds-section creds-section--alt">
         <div className="creds-section-inner">
           <p className="section-eyebrow">Identity Architecture</p>
           <h2 className="creds-h2">Three roles. One mission.</h2>
-
           <div className="pillars-grid">
             {pillars.map((p) => (
               <div key={p.num} className="pillar-card">
@@ -234,7 +369,6 @@ export default function ExecutiveCredentials() {
         <div className="creds-section-inner">
           <p className="section-eyebrow">Certifications & Education</p>
           <h2 className="creds-h2">Grounded in both practice and principle.</h2>
-
           <div className="certs-list">
             {certifications.map((c) => (
               <div key={c.name} className="cert-card">
@@ -247,7 +381,6 @@ export default function ExecutiveCredentials() {
             ))}
           </div>
 
-          {/* PMI Certificate image */}
           <div className="pmi-cert-wrap">
             <p className="section-eyebrow" style={{ marginBottom: "1rem" }}>PMI® Certificate</p>
             <div className="pmi-cert-card">
@@ -282,7 +415,7 @@ export default function ExecutiveCredentials() {
           </div>
           <p className="creds-body" style={{ marginTop: "1.5rem" }}>
             These recognitions reflect independent verification of leadership in
-            responsible AI design, human-in-the-loop governance, and institutional
+            responsible AI design, Human-in-the-Loop governance, and institutional
             accountability. They are not influencer rankings or paid promotions.
           </p>
         </div>
