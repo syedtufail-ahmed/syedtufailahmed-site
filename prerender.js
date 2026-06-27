@@ -1,6 +1,8 @@
 import fs from "fs";
 import path from "path";
-import { fileURLToPath } from "url";
+import { fileURLToPath, pathToFileURL } from "url";
+import { createRequire } from "module";
+import { createServer } from "vite";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -18,12 +20,16 @@ const routes = [
 
 async function prerender() {
   const distDir = path.resolve(__dirname, "dist");
-
-  // Read the built client index.html as template
   const template = fs.readFileSync(path.resolve(distDir, "index.html"), "utf-8");
 
-  // Import the server bundle
-  const { render } = await import("./dist/server/entry-server.js");
+  // Use Vite's SSR load which handles CJS/ESM interop correctly
+  const vite = await createServer({
+    server: { middlewareMode: true },
+    appType: "custom",
+    ssr: { noExternal: ["react-helmet-async"] },
+  });
+
+  const { render } = await vite.ssrLoadModule("/src/entry-server.jsx");
 
   for (const route of routes) {
     try {
@@ -39,7 +45,6 @@ async function prerender() {
         .replace("<!--helmet-meta-->", helmetHead)
         .replace('<div id="root"></div>', `<div id="root">${html}</div>`);
 
-      // Remove the fallback title if helmet injected one
       if (titleTag) {
         finalHtml = finalHtml.replace(
           /<title>Syed Tufail Ahmed \| AI Governance Leader.*?<\/title>/s,
@@ -56,6 +61,7 @@ async function prerender() {
     }
   }
 
+  await vite.close();
   console.log("Prerender complete.");
 }
 
