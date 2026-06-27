@@ -108,7 +108,7 @@ export default function Home() {
           </div>
           <div className="cred-divider" />
           <div className="cred-item">
-            <span className="cred-rank">9,700+</span>
+            <span className="cred-rank">10,300+</span>
             <span className="cred-label">LinkedIn Followers</span>
           </div>
         </div>
@@ -223,6 +223,9 @@ export default function Home() {
               leaders, organizations, and nations who believe that technology should
               amplify human potential — not replace it.
             </p>
+            <p className="book-description" style={{fontSize: "0.9rem", color: "var(--text-muted)"}}>
+              🏆 Listed among the <a href="https://www.thinkers360.com/25-best-agentic-ai-books-written-by-thinkers360-experts/" target="_blank" rel="noopener noreferrer" style={{color: "inherit", textDecoration: "underline"}}>25 Best Agentic AI Books</a> by Thinkers360 Experts
+            </p>
             <blockquote className="book-quote">
               "AI can process a million data points. But only a human can decide what they mean."
             </blockquote>
@@ -259,7 +262,7 @@ export default function Home() {
             <div className="home-writing-card">
               <p className="home-writing-type">Newsletter</p>
               <p className="home-writing-title">Human in the Loop</p>
-              <p className="home-writing-meta">1,662 subscribers · Monthly · LinkedIn</p>
+              <p className="home-writing-meta">1,884 subscribers · Monthly · LinkedIn</p>
               <a
                 href="https://www.linkedin.com/newsletters/human-in-the-loop-7425167651922165761/"
                 target="_blank"
