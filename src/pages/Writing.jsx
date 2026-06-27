@@ -41,6 +41,28 @@ const editions = [
 
 const papers = [
   {
+    title: "Responsible AI in Healthcare: From Ethical Intent to Clinical-Grade Decision Governance",
+    venue: "npj Digital Medicine · Nature Portfolio",
+    status: "Under Review",
+    statusType: "under_review",
+    year: "2026",
+    submissionId: "0efabad3-a3a5-40e0-840f-7e541b1c6e59",
+    abstract:
+      "Argues that responsible AI in healthcare must be reconceived as clinical-grade decision governance architecture — an operational system in which AI outputs are embedded within structured human-led clinical workflows, with explicit accountability assignment, explainability requirements, and immutable audit trails. Proposes a five-pillar governance model and introduces the governance-by-design principle, with specific reference to the Saudi Arabian regulatory context including PDPL, SDAIA ethics principles, and Vision 2030 digital health transformation goals.",
+    keywords: ["Clinical AI Governance", "Human-in-the-Loop", "Healthcare AI", "Responsible AI", "PDPL", "Saudi Arabia"],
+  },
+  {
+    title: "Governance by Design: Why AI Accountability Must Be Architected, Not Audited",
+    venue: "AI & Society · Springer",
+    status: "Under Review",
+    statusType: "under_review",
+    year: "2026",
+    submissionId: "ef5c457b-94be-4428-b3b5-ca924e100015",
+    abstract:
+      "Argues that AI accountability cannot be achieved through post-hoc auditing alone. Governance must be embedded as an intrinsic architectural property of AI systems — built into workflows, decision loops, and accountability mechanisms before deployment, not layered on afterward. Introduces the governance-by-design principle as a foundational requirement for trustworthy AI in high-stakes environments.",
+    keywords: ["AI Governance", "Accountability Architecture", "Governance by Design", "Responsible AI", "AI Policy"],
+  },
+  {
     title: "A Decision-Centric Human-in-the-Loop Governance Architecture for Operationalizing IEEE 7000-2021",
     venue: "IEEE · Independent Research",
     status: "Draft",
@@ -105,6 +127,7 @@ const onSite = [
 ];
 
 const statusColors = {
+  under_review: { color: "#a78bfa", bg: "rgba(167, 139, 250, 0.08)", border: "rgba(167, 139, 250, 0.2)" },
   draft: { color: "#f59e0b", bg: "rgba(245, 158, 11, 0.08)", border: "rgba(245, 158, 11, 0.2)" },
   complete: { color: "#38bdf8", bg: "rgba(56, 189, 248, 0.08)", border: "rgba(56, 189, 248, 0.18)" },
   published: { color: "#34d399", bg: "rgba(52, 211, 153, 0.08)", border: "rgba(52, 211, 153, 0.2)" },
@@ -117,12 +140,12 @@ export default function Writing() {
         <title>Writing & Research | Syed Tufail Ahmed — AI Governance</title>
         <meta
           name="description"
-          content="Newsletter, research papers, and essays by Syed Tufail Ahmed on AI governance, human-in-the-loop systems, data localization, and healthcare AI. Including IEEE research and the Human in the Loop newsletter."
+          content="Newsletter, research papers, and essays by Syed Tufail Ahmed on AI governance, human-in-the-loop systems, data localization, and healthcare AI. Including papers under review at npj Digital Medicine and AI & Society."
         />
         <link rel="canonical" href="https://www.syedtufailahmed.com/writing" />
         <meta
           name="keywords"
-          content="Syed Tufail Ahmed research papers, Human in the Loop newsletter, AI governance research, IEEE 7000-2021, SADAIA data localization, healthcare AI research, human-centered AI writing"
+          content="Syed Tufail Ahmed research papers, Human in the Loop newsletter, AI governance research, npj Digital Medicine, AI & Society, healthcare AI governance, human-centered AI writing"
         />
         <meta name="robots" content="index, follow" />
         <meta property="og:type" content="website" />
@@ -154,18 +177,18 @@ export default function Writing() {
             </div>
             <div className="writing-stat-div" />
             <div className="writing-stat">
-              <span className="writing-stat-num">3</span>
+              <span className="writing-stat-num">5</span>
               <span className="writing-stat-label">research papers</span>
             </div>
             <div className="writing-stat-div" />
             <div className="writing-stat">
               <span className="writing-stat-num">2</span>
-              <span className="writing-stat-label">newsletter editions</span>
+              <span className="writing-stat-label">under review</span>
             </div>
             <div className="writing-stat-div" />
             <div className="writing-stat">
-              <span className="writing-stat-num">1</span>
-              <span className="writing-stat-label">LinkedIn article</span>
+              <span className="writing-stat-num">2</span>
+              <span className="writing-stat-label">newsletter editions</span>
             </div>
           </div>
         </div>
@@ -314,6 +337,11 @@ export default function Writing() {
                     </div>
                     <h3 className="paper-title">{p.title}</h3>
                     <p className="paper-venue">{p.venue}</p>
+                    {p.submissionId && (
+                      <p style={{ fontSize: "0.72rem", color: "var(--text-muted, #888)", marginTop: "0.25rem", fontFamily: "monospace" }}>
+                        Submission ID: {p.submissionId}
+                      </p>
+                    )}
                   </div>
 
                   <p className="paper-abstract">{p.abstract}</p>
