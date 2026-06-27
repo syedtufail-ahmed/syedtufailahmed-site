@@ -9,8 +9,8 @@
   "scripts": {
     "dev": "vite",
     "build": "npm run build:client && npm run build:server && node prerender.js",
-    "build:client": "vite build",
-    "build:server": "BUILD_TARGET=server vite build",
+    "build:client": "npx vite build",
+    "build:server": "BUILD_TARGET=server npx vite build",
     "preview": "vite preview"
   },
   "dependencies": {
