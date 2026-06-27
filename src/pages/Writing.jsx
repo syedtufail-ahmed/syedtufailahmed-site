@@ -5,7 +5,7 @@ const newsletter = {
   name: "Human in the Loop",
   description:
     "A monthly newsletter exploring how organisations can use AI without surrendering human authority. Decision accountability, governance frameworks, and the future of intelligent systems.",
-  subscribers: "1,662",
+  subscribers: "1,884",
   frequency: "Monthly",
   url: "https://www.linkedin.com/newsletters/human-in-the-loop-7425167651922165761/",
 };
@@ -98,10 +98,20 @@ const articles = [
   {
     title: "Human-in-the-Loop Is Not a Checkbox",
     date: "February 5, 2026",
+    platform: "LinkedIn",
     description:
       "Treating human-in-the-loop as a compliance tick-box misses the point entirely. This article examines why genuine human oversight requires intentional system design — not a signature field at the end of an automated pipeline.",
     url: "https://www.linkedin.com/pulse/human-in-the-loop-checkbox-syed-tufail-ahmed-yqbpf",
     tags: ["Decision Risks", "Governance Blind Spots", "Human Oversight"],
+  },
+  {
+    title: "Writing on AI Governance & Human-Centered AI",
+    date: "2025 – Present",
+    platform: "Medium",
+    description:
+      "Essays and analysis on AI governance, Human-in-the-Loop frameworks, responsible AI deployment, and the future of human authority in intelligent systems — published on Medium.",
+    url: "https://medium.com/@syedtufailahmed",
+    tags: ["AI Governance", "Human-in-the-Loop", "Responsible AI"],
   },
 ];
 
@@ -172,7 +182,7 @@ export default function Writing() {
           </p>
           <div className="writing-hero-stats">
             <div className="writing-stat">
-              <span className="writing-stat-num">1,662</span>
+              <span className="writing-stat-num">1,884</span>
               <span className="writing-stat-label">newsletter subscribers</span>
             </div>
             <div className="writing-stat-div" />
@@ -187,8 +197,8 @@ export default function Writing() {
             </div>
             <div className="writing-stat-div" />
             <div className="writing-stat">
-              <span className="writing-stat-num">2</span>
-              <span className="writing-stat-label">newsletter editions</span>
+              <span className="writing-stat-num">Medium</span>
+              <span className="writing-stat-label">articles published</span>
             </div>
           </div>
         </div>
@@ -284,7 +294,7 @@ export default function Writing() {
       <section className="writing-articles">
         <div className="writing-articles-inner">
           <p className="section-eyebrow">Articles</p>
-          <h2 className="writing-section-heading">Standalone LinkedIn articles</h2>
+          <h2 className="writing-section-heading">LinkedIn &amp; Medium articles</h2>
 
           <div className="articles-list">
             {articles.map((a) => (
@@ -297,7 +307,7 @@ export default function Writing() {
               >
                 <div className="article-card-inner">
                   <div className="article-card-body">
-                    <p className="article-date">{a.date}</p>
+                    <p className="article-date">{a.date}{a.platform ? ` · ${a.platform}` : ""}</p>
                     <h3 className="article-title">{a.title}</h3>
                     <p className="article-desc">{a.description}</p>
                     <div className="edition-tags" style={{ marginTop: "1rem" }}>
@@ -306,7 +316,7 @@ export default function Writing() {
                       ))}
                     </div>
                   </div>
-                  <span className="article-read-link">Read on LinkedIn →</span>
+                  <span className="article-read-link">Read on {a.platform || "LinkedIn"} →</span>
                 </div>
               </a>
             ))}
