@@ -442,7 +442,7 @@ export default function ExecutiveCredentials() {
         <p className="creds-body" style={{ marginBottom: "1.5rem" }}>
           A complete executive and thought leadership profile covering frameworks,
           research, implementation, and global engagement.
-        </p>
+        </p><a
         
           href="/Tufail_Ahmed_Executive_Dossier.docx"
           download="Tufail_Ahmed_Executive_Dossier.docx"
