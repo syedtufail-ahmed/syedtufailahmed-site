@@ -444,8 +444,8 @@ export default function ExecutiveCredentials() {
           research, implementation, and global engagement.
         </p><a
         
-          href="/Tufail_Ahmed_Executive_Dossier.docx"
-          download="Tufail_Ahmed_Executive_Dossier.docx"
+          href="/Tufail_Ahmed_Executive_Dossier.pdf"
+          download="Tufail_Ahmed_Executive_Dossier.pdf"
           className="btn btn-primary"
         >
           ↓ Download Executive Dossier
