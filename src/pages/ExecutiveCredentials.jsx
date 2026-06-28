@@ -402,6 +402,7 @@ export default function ExecutiveCredentials() {
           </div>
         </div>
       </section>
+      
 
       {/* ── AFFILIATIONS ── */}
       <section className="creds-section">
