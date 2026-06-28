@@ -435,6 +435,22 @@ export default function ExecutiveCredentials() {
           </div>
         </div>
       </section>
+      {/* ── DOWNLOAD DOSSIER ── */}
+<section className="creds-section" style={{ textAlign: "center", padding: "3rem 1rem" }}>
+  <p className="section-eyebrow">Executive Dossier</p>
+  <h2 className="creds-h2" style={{ marginBottom: "0.5rem" }}>Download the Full Profile</h2>
+  <p className="creds-body" style={{ marginBottom: "1.5rem" }}>
+    A complete executive and thought leadership profile covering frameworks,
+    research, implementation, and global engagement.
+  </p>
+  
+    href="/Tufail_Ahmed_Executive_Dossier.docx"
+    download="Tufail_Ahmed_Executive_Dossier.docx"
+    className="btn btn-primary"
+  >
+    ↓ Download Executive Dossier
+  </a>
+</section>
     </>
   );
 }
