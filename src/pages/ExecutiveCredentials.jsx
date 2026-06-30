@@ -21,26 +21,31 @@ const thinkers360 = [
     linkUrl: "https://www.thinkers360.com/tl/badge/31895/7497",
     alt: "Top 25 Thought Leader in AI Governance – Thinkers360",
   },
-];
-
-const thinkers360Certs = [
   {
-    title: "Certified Expert · AI Governance",
-    issued: "25 June 2026",
-    expires: "25 June 2027",
-    color: "#38bdf8",
+    rank: "Top 10",
+    category: "AI Safety",
+    body: "Thinkers360",
+    color: "#34d399",
+    badgeUrl: "https://www.thinkers360.com/tl/assets/images/badges/top10/Top%2010%20-%20AI%20Safety.png",
+    linkUrl: "https://www.thinkers360.com/tl/badge/31895/8509",
+    alt: "Top 10 Thought Leader in AI Safety – Thinkers360",
   },
   {
-    title: "Certified Expert · AI",
-    issued: "21 June 2026",
-    expires: "21 June 2027",
-    color: "#f59e0b",
+    rank: "Top 100",
+    category: "Agentic AI",
+    body: "Thinkers360",
+    color: "#a78bfa",
+    badgeUrl: "https://www.thinkers360.com/tl/assets/images/badges/top100/Top%20100%20-%20Agentic%20AI.png",
+    linkUrl: "https://www.thinkers360.com/tl/badge/31895/8508",
+    alt: "Top 100 Thought Leader in Agentic AI – Thinkers360",
   },
 ];
 
 const favikon = [
   { rank: "#1", label: "AI Governance & Policy · Saudi Arabia", highlight: true },
   { rank: "#1", label: "AI Safety & Tech Ethics · Saudi Arabia", highlight: true },
+  { rank: "#10", label: "AI Safety & Tech Ethics · Worldwide", highlight: true },
+  { rank: "#51", label: "AI Governance & Policy · Worldwide", highlight: false },
   { rank: "#2", label: "AI & ML Researchers · LinkedIn · Saudi Arabia", highlight: false },
   { rank: "#9", label: "Tech & Software · LinkedIn · Saudi Arabia", highlight: false },
   { rank: "#11", label: "AI Safety & Tech Ethics · LinkedIn · Worldwide", highlight: false },
