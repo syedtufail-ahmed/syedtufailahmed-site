@@ -40,7 +40,20 @@ const thinkers360 = [
     alt: "Top 100 Thought Leader in Agentic AI – Thinkers360",
   },
 ];
-
+const thinkers360Certs = [
+  {
+    title: "Certified Expert · AI Governance",
+    issued: "25 June 2026",
+    expires: "25 June 2027",
+    color: "#38bdf8",
+  },
+  {
+    title: "Certified Expert · AI",
+    issued: "21 June 2026",
+    expires: "21 June 2027",
+    color: "#f59e0b",
+  },
+];
 const favikon = [
   { rank: "#1", label: "AI Governance & Policy · Saudi Arabia", highlight: true },
   { rank: "#1", label: "AI Safety & Tech Ethics · Saudi Arabia", highlight: true },
