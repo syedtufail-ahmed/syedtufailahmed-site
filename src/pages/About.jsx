@@ -67,38 +67,38 @@ export default function About() {
     <>
       <PersonSchema />
 
-      <Helmet>
-        <title>About Syed Tufail Ahmed | AI Governance Leader · Author · Riyadh, KSA</title>
+     <Helmet>
+        <title>About Syed Tufail Ahmed | UN Geneva AI Governance Speaker · Riyadh, KSA</title>
         <meta
           name="description"
-          content="Syed Tufail Ahmed is an AI governance and digital transformation leader based in Riyadh, Saudi Arabia. 20+ years of experience across enterprise platforms, public-sector programs, and human-centered AI. Author of Human in the Loop."
+          content="Syed Tufail Ahmed is an AI governance leader and registered participant at the United Nations Global Dialogue on AI Governance, Geneva 2026. 20+ years in enterprise transformation, public-sector AI, and human-centered governance. Author of Human in the Loop."
         />
         <link rel="canonical" href="https://www.syedtufailahmed.com/about" />
         <meta
           name="keywords"
-          content="Syed Tufail Ahmed, AI governance leader Saudi Arabia, digital transformation Riyadh, human-in-the-loop AI, AI ethics KSA, Vision 2030 AI, keynote speaker AI, Ministry of Culture Saudi Arabia"
+          content="Syed Tufail Ahmed, AI governance leader Saudi Arabia, UN Global Dialogue on AI Governance, Geneva 2026, digital transformation Riyadh, human-in-the-loop AI, AI ethics KSA, Vision 2030 AI, keynote speaker AI, Ministry of Culture Saudi Arabia, GCRAI"
         />
         <meta name="robots" content="index, follow" />
 
         <meta property="og:type" content="profile" />
-        <meta property="og:title" content="About Syed Tufail Ahmed | AI Governance Leader · Riyadh, KSA" />
+        <meta property="og:title" content="About Syed Tufail Ahmed | UN Geneva AI Governance Speaker" />
         <meta
           property="og:description"
-          content="AI governance and digital transformation leader. 20+ years spanning enterprise platforms, healthcare AI, and public-sector programs. Author of Human in the Loop."
+          content="AI governance leader and registered participant at the United Nations Global Dialogue on AI Governance, Geneva 2026. Author of Human in the Loop. 20+ years across enterprise and public-sector AI."
         />
         <meta property="og:url" content="https://www.syedtufailahmed.com/about" />
-        <meta property="og:image" content="https://www.syedtufailahmed.com/og/home.png" />
+        <meta property="og:image" content="https://www.syedtufailahmed.com/un-geneva-dialogue.png" />
         <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content="Syed Tufail Ahmed — AI Governance Leader and Author" />
+        <meta property="og:image:height" content="1200" />
+        <meta property="og:image:alt" content="Syed Tufail Ahmed — United Nations Global Dialogue on AI Governance, Geneva 2026" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="About Syed Tufail Ahmed | AI Governance Leader · Riyadh, KSA" />
+        <meta name="twitter:title" content="About Syed Tufail Ahmed | UN Geneva AI Governance Speaker" />
         <meta
           name="twitter:description"
-          content="AI governance and digital transformation leader. Author of Human in the Loop. Based in Riyadh, Saudi Arabia."
+          content="AI governance leader and registered participant at the United Nations Global Dialogue on AI Governance, Geneva 2026. Author of Human in the Loop."
         />
-        <meta name="twitter:image" content="https://www.syedtufailahmed.com/og/home.png" />
+        <meta name="twitter:image" content="https://www.syedtufailahmed.com/un-geneva-dialogue.png" />
       </Helmet>
 
       {/* ── HERO ── */}
@@ -129,7 +129,27 @@ export default function About() {
           </div>
         </div>
       </section>
+{/* ── UN GENEVA DIALOGUE ── */}
+      <section className="about-section">
+        <div className="about-section-inner" style={{ textAlign: "center" }}>
+          <img
+            src="/un-geneva-dialogue.png"
+            alt="Syed Tufail Ahmed — United Nations Global Dialogue on AI Governance, Geneva 2026"
+            style={{ maxWidth: "100%", height: "auto", borderRadius: "12px" }}
+            loading="lazy"
+            decoding="async"
+          />
+          <p className="about-body" style={{ marginTop: "1.5rem" }}>
+            Registered participant at the{" "}
+            <strong>United Nations Global Dialogue on AI Governance</strong>, Geneva,
+            July 6–7, 2026 — a United Nations General Assembly mandated meeting.
+            Nominated by GCRAI, with a written contribution indexed among 1,500+
+            global submissions.
+          </p>
+        </div>
+      </section>
 
+      
       {/* ── WHO I AM ── */}
       <section className="about-section">
         <div className="about-section-inner">
