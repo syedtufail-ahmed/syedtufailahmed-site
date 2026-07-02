@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 <Helmet>
   <title>Speaking | Syed Tufail Ahmed — AI Governance Keynote Speaker · North America & Middle East</title>
   <meta
