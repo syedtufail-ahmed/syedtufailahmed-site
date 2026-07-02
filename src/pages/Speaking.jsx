@@ -1,5 +1,19 @@
-import { Helmet } from "react-helmet-async";
-
+<Helmet>
+  <title>Speaking | Syed Tufail Ahmed — AI Governance Keynote Speaker · North America & Middle East</title>
+  <meta
+    name="description"
+    content="Invite Syed Tufail Ahmed to speak at your conference or event. Keynotes on AI governance, human-in-the-loop systems, Vision 2030, and responsible AI. Available in North America, Middle East, and South Asia. Confirmed keynote speaker at ICQAMM 2026."
+  />
+  <link rel="canonical" href="https://www.syedtufailahmed.com/speaking" />
+  <meta property="og:title" content="Speaking | Syed Tufail Ahmed — AI Governance Keynote Speaker" />
+  <meta property="og:description" content="Keynotes on AI governance, human-in-the-loop systems, and responsible AI. Available in North America (valid US visa), Middle East, and South Asia." />
+  <meta property="og:url" content="https://www.syedtufailahmed.com/speaking" />
+  <meta property="og:image" content="https://www.syedtufailahmed.com/og/home.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Speaking | Syed Tufail Ahmed — AI Governance Keynote Speaker" />
+  <meta name="twitter:description" content="Keynotes on AI governance, human-in-the-loop, and responsible AI. Available North America, Middle East, South Asia." />
+  <meta name="twitter:image" content="https://www.syedtufailahmed.com/og/home.png" />
+</Helmet>
 const keynotes = [
   {
     num: "01",
@@ -212,15 +226,56 @@ export default function Speaking() {
           </p>
         </div>
       </section>
-
+{/* CONFIRMED ENGAGEMENTS */}
+<section className="speaking-context">
+  <div className="speaking-context-inner">
+    <p className="section-eyebrow">Confirmed Engagements</p>
+    <h2 className="section-heading">Where I am speaking in 2026.</h2>
+    <div className="keynote-list">
+      <article className="keynote-full-card">
+        <div className="keynote-full-header">
+          <span className="keynote-full-num">01</span>
+          <div>
+            <h3 className="keynote-full-title">ICQAMM 2026 · Keynote Speaker</h3>
+            <p className="keynote-full-meta">10 to 11 August 2026 · Audisankara Deemed to be University, Nellore, India</p>
+          </div>
+        </div>
+        <p className="keynote-full-desc">
+          Invited keynote at the International Conference on Quantum, AI and
+          Multidisciplinary Management, co-organized by Audisankara Deemed to
+          be University and INTI International University, Malaysia. Speaking
+          on Governance by Design: Why AI Accountability Must Be Architected,
+          Not Audited.
+        </p>
+      </article>
+      <article className="keynote-full-card">
+        <div className="keynote-full-header">
+          <span className="keynote-full-num">02</span>
+          <div>
+            <h3 className="keynote-full-title">UN Global Dialogue on AI Governance · Registered Participant</h3>
+            <p className="keynote-full-meta">6 to 7 July 2026 · Palexpo, Geneva, Switzerland</p>
+          </div>
+        </div>
+        <p className="keynote-full-desc">
+          Registered participant and GCRAI Saudi Chapter delegate at the
+          United Nations Global Dialogue on AI Governance, a United Nations
+          General Assembly mandated meeting. Written contribution indexed
+          among 1,500 plus global submissions.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
       {/* ── BOOKING CTA ── */}
       <section className="speaking-booking">
         <div className="speaking-booking-inner">
           <h2 className="speaking-booking-title">Ready to bring this to your event?</h2>
-          <p className="speaking-booking-sub">
-            I speak at conferences, corporate leadership events, government forums,
-            and executive workshops — in Saudi Arabia and internationally.
-          </p>
+         <p className="speaking-booking-sub">
+  I speak at conferences, corporate leadership events, government forums,
+  and executive workshops. Available in person across the Middle East,
+  South Asia, and North America (valid US B1/B2 visa held). Virtual
+  keynotes available globally.
+</p>
           <a
             href="mailto:syed@syedtufailahmed.com?subject=Speaking%20Inquiry"
             className="btn btn-primary"
