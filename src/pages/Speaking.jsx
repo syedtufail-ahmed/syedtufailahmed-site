@@ -127,7 +127,7 @@ export default function Speaking() {
           </div>
           <div className="speaking-hero-photo">
             <img
-              src="/speaker.png"
+              src="/profilephoto-round.png"
               alt="Syed Tufail Ahmed — Keynote Speaker"
               width="520"
               height="390"
