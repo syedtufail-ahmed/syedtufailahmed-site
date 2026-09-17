@@ -10,7 +10,7 @@ export default function Home() {
         <title>Syed Tufail Ahmed | AI Governance Leader, Author & Keynote Speaker</title>
         <meta
           name="description"
-          content="Syed Tufail Ahmed is an AI Governance and Digital Transformation Leader based in Riyadh, Saudi Arabia. Thinkers360 Top 25 AI Governance, author of Human in the Loop, keynote speaker, and independent researcher."
+          content="Syed Tufail Ahmed is an AI Governance and Digital Transformation Leader based in Riyadh, Saudi Arabia. Ranked #1 in AI Governance & Policy and #1 in AI Safety & Tech Ethics in Saudi Arabia by Favikon. Thinkers360 Top 25 AI Governance, author of Human in the Loop, and keynote speaker at ICQAMM 2026."
         />
         <link rel="canonical" href="https://www.syedtufailahmed.com/" />
         <link rel="icon" href="/favicon.ico" />
@@ -98,13 +98,13 @@ export default function Home() {
           </div>
           <div className="cred-divider" />
           <div className="cred-item">
-            <span className="cred-rank">#2</span>
-            <span className="cred-label">AI Safety &amp; Tech Ethics · KSA</span>
+            <span className="cred-rank">#1</span>
+            <span className="cred-label">AI Governance &amp; Policy · KSA · Favikon</span>
           </div>
           <div className="cred-divider" />
           <div className="cred-item">
-            <span className="cred-rank">20+</span>
-            <span className="cred-label">Years of Experience</span>
+            <span className="cred-rank">#1</span>
+            <span className="cred-label">AI Safety &amp; Tech Ethics · KSA · Favikon</span>
           </div>
           <div className="cred-divider" />
           <div className="cred-item">
@@ -181,6 +181,11 @@ export default function Home() {
             demo — and leave your audience with frameworks they'll still be
             using six months later.
           </p>
+          <p className="section-body">
+            Most recently, I delivered the keynote at <strong>ICQAMM 2026</strong>, the
+            International Conference on Quantum, AI and Multidisciplinary Management in
+            Nellore, India, and was honoured with an award by the organisers.
+          </p>
           <div className="keynote-grid">
             {[
               { num: "01", title: "Human in the Loop", meta: "Flagship · 45–60 min" },
@@ -252,7 +257,7 @@ export default function Home() {
             A newsletter. Peer-reviewed papers. Essays.
           </h2>
           <p className="section-body">
-            The <em>Human in the Loop</em> newsletter reaches 1,662 subscribers monthly.
+            The <em>Human in the Loop</em> newsletter reaches 2,128 subscribers monthly.
             Alongside it: five research papers — including two currently under peer review at
             <em> npj Digital Medicine</em> (Nature Portfolio) and <em>AI &amp; Society</em> (Springer) —
             plus LinkedIn articles and long-form essays.
@@ -262,7 +267,7 @@ export default function Home() {
             <div className="home-writing-card">
               <p className="home-writing-type">Newsletter</p>
               <p className="home-writing-title">Human in the Loop</p>
-              <p className="home-writing-meta">1,884 subscribers · Monthly · LinkedIn</p>
+              <p className="home-writing-meta">2,128 subscribers · Monthly · LinkedIn</p>
               <a
                 href="https://www.linkedin.com/newsletters/human-in-the-loop-7425167651922165761/"
                 target="_blank"

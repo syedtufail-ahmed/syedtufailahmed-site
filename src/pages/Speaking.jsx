@@ -1,20 +1,5 @@
 import { Helmet } from "react-helmet-async";
-<Helmet>
-  <title>Speaking | Syed Tufail Ahmed — AI Governance Keynote Speaker · North America & Middle East</title>
-  <meta
-    name="description"
-    content="Invite Syed Tufail Ahmed to speak at your conference or event. Keynotes on AI governance, human-in-the-loop systems, Vision 2030, and responsible AI. Available in North America, Middle East, and South Asia. Confirmed keynote speaker at ICQAMM 2026."
-  />
-  <link rel="canonical" href="https://www.syedtufailahmed.com/speaking" />
-  <meta property="og:title" content="Speaking | Syed Tufail Ahmed — AI Governance Keynote Speaker" />
-  <meta property="og:description" content="Keynotes on AI governance, human-in-the-loop systems, and responsible AI. Available in North America (valid US visa), Middle East, and South Asia." />
-  <meta property="og:url" content="https://www.syedtufailahmed.com/speaking" />
-  <meta property="og:image" content="https://www.syedtufailahmed.com/og/home.png" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Speaking | Syed Tufail Ahmed — AI Governance Keynote Speaker" />
-  <meta name="twitter:description" content="Keynotes on AI governance, human-in-the-loop, and responsible AI. Available North America, Middle East, South Asia." />
-  <meta name="twitter:image" content="https://www.syedtufailahmed.com/og/home.png" />
-</Helmet>
+
 const keynotes = [
   {
     num: "01",
@@ -97,15 +82,21 @@ export default function Speaking() {
   return (
     <>
       <Helmet>
-        <title>Speaking | Syed Tufail Ahmed — AI Governance Keynote Speaker</title>
+        <title>Speaking | Syed Tufail Ahmed · AI Governance Keynote Speaker</title>
         <meta
           name="description"
-          content="Invite Syed Tufail Ahmed to speak at your conference or event. Keynotes on AI governance, human-in-the-loop systems, Vision 2030, and responsible AI transformation."
+          content="Invite Syed Tufail Ahmed to speak at your conference or event. Keynote speaker and award recipient at ICQAMM 2026. Keynotes on AI governance, human-in-the-loop systems, Vision 2030, and responsible AI. Available in the Middle East, South Asia, and North America."
         />
         <link rel="canonical" href="https://www.syedtufailahmed.com/speaking" />
-        <meta property="og:title" content="Speaking | Syed Tufail Ahmed" />
-        <meta property="og:description" content="Keynotes on AI governance, human-in-the-loop systems, and responsible AI transformation." />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Speaking | Syed Tufail Ahmed · AI Governance Keynote Speaker" />
+        <meta property="og:description" content="Keynote speaker and award recipient at ICQAMM 2026. Keynotes on AI governance, human-in-the-loop systems, and responsible AI." />
         <meta property="og:url" content="https://www.syedtufailahmed.com/speaking" />
+        <meta property="og:image" content="https://www.syedtufailahmed.com/og/home.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Speaking | Syed Tufail Ahmed · AI Governance Keynote Speaker" />
+        <meta name="twitter:description" content="Keynote speaker and award recipient at ICQAMM 2026. Keynotes on AI governance, human-in-the-loop, and responsible AI." />
+        <meta name="twitter:image" content="https://www.syedtufailahmed.com/og/home.png" />
       </Helmet>
 
       {/* ── HERO ── */}
@@ -230,23 +221,24 @@ export default function Speaking() {
 {/* CONFIRMED ENGAGEMENTS */}
 <section className="speaking-context">
   <div className="speaking-context-inner">
-    <p className="section-eyebrow">Confirmed Engagements</p>
-    <h2 className="section-heading">Where I am speaking in 2026.</h2>
+    <p className="section-eyebrow">Recent Engagements</p>
+    <h2 className="section-heading">Where I have spoken in 2026.</h2>
     <div className="keynote-list">
       <article className="keynote-full-card">
         <div className="keynote-full-header">
           <span className="keynote-full-num">01</span>
           <div>
-            <h3 className="keynote-full-title">ICQAMM 2026 · Keynote Speaker</h3>
+            <h3 className="keynote-full-title">ICQAMM 2026 · Keynote Speaker and Award Recipient</h3>
             <p className="keynote-full-meta">10 to 11 August 2026 · Audisankara Deemed to be University, Nellore, India</p>
           </div>
         </div>
         <p className="keynote-full-desc">
-          Invited keynote at the International Conference on Quantum, AI and
-          Multidisciplinary Management, co-organized by Audisankara Deemed to
-          be University and INTI International University, Malaysia. Speaking
-          on Governance by Design: Why AI Accountability Must Be Architected,
-          Not Audited.
+          Delivered the keynote at the International Conference on Quantum, AI
+          and Multidisciplinary Management, hosted by Audisankara Deemed to be
+          University and co-organized with Confab 360 Degree and INTI
+          International University, Malaysia. The keynote, Governance by Design:
+          Why AI Accountability Must Be Architected, Not Audited, was recognised
+          with an award by the conference organisers.
         </p>
       </article>
       <article className="keynote-full-card">
@@ -258,7 +250,7 @@ export default function Speaking() {
           </div>
         </div>
         <p className="keynote-full-desc">
-          Registered participant and GCRAI Saudi Chapter delegate at the
+          Registered participant and Global Council for Responsible AI (GCRAI) Saudi Chapter delegate at the
           United Nations Global Dialogue on AI Governance, a United Nations
           General Assembly mandated meeting. Written contribution indexed
           among 1,500 plus global submissions.

@@ -5,7 +5,7 @@ const newsletter = {
   name: "Human in the Loop",
   description:
     "A monthly newsletter exploring how organisations can use AI without surrendering human authority. Decision accountability, governance frameworks, and the future of intelligent systems.",
-  subscribers: "1,884",
+  subscribers: "2,128",
   frequency: "Monthly",
   url: "https://www.linkedin.com/newsletters/human-in-the-loop-7425167651922165761/",
 };
@@ -182,7 +182,7 @@ export default function Writing() {
           </p>
           <div className="writing-hero-stats">
             <div className="writing-stat">
-              <span className="writing-stat-num">1,884</span>
+              <span className="writing-stat-num">{newsletter.subscribers}</span>
               <span className="writing-stat-label">newsletter subscribers</span>
             </div>
             <div className="writing-stat-div" />

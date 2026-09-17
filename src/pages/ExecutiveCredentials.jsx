@@ -7,6 +7,8 @@ const thinkers360 = [
     rank: "Top 10",
     category: "AI Ethics",
     body: "Thinkers360",
+    start: "26 Jan 2026",
+    end: "26 Jan 2027",
     color: "#f59e0b",
     badgeUrl: "https://www.thinkers360.com/tl/assets/images/badges/top10/Top%2010%20-%20AI%20Ethics.png",
     linkUrl: "https://www.thinkers360.com/tl/badge/31895/7496",
@@ -16,6 +18,8 @@ const thinkers360 = [
     rank: "Top 25",
     category: "AI Governance",
     body: "Thinkers360",
+    start: "26 Jan 2026",
+    end: "26 Jan 2027",
     color: "#38bdf8",
     badgeUrl: "https://www.thinkers360.com/tl/assets/images/badges/top25/Top%2025%20-%20AI%20Governance.png",
     linkUrl: "https://www.thinkers360.com/tl/badge/31895/7497",
@@ -25,6 +29,8 @@ const thinkers360 = [
     rank: "Top 10",
     category: "AI Safety",
     body: "Thinkers360",
+    start: "30 Jun 2026",
+    end: "30 Jun 2027",
     color: "#34d399",
     badgeUrl: "https://www.thinkers360.com/tl/assets/images/badges/top10/Top%2010%20-%20AI%20Safety.png",
     linkUrl: "https://www.thinkers360.com/tl/badge/31895/8509",
@@ -34,6 +40,8 @@ const thinkers360 = [
     rank: "Top 100",
     category: "Agentic AI",
     body: "Thinkers360",
+    start: "30 Jun 2026",
+    end: "30 Jun 2027",
     color: "#a78bfa",
     badgeUrl: "https://www.thinkers360.com/tl/assets/images/badges/top100/Top%20100%20-%20Agentic%20AI.png",
     linkUrl: "https://www.thinkers360.com/tl/badge/31895/8508",
@@ -97,7 +105,7 @@ const certifications = [
   { name: "Six Sigma Green Belt", org: "Quality Management", type: "Professional Certification" },
   { name: "PMI Essentials: Seven AI Project Patterns", org: "Project Management Institute", type: "AI Certification" },
   { name: "Postgraduate Certificate · AI & Digital Imaging", org: "Indian Institute of Science (IISc)", type: "Academic Credential" },
-  { name: "Executive Education — AI & Public Policy", org: "Lee Kuan Yew School of Public Policy, NUS", type: "In Progress · March – August 2026" },
+  { name: "Executive Education · Public Policy with AI", org: "Lee Kuan Yew School of Public Policy, NUS", type: "Completed · 2026" },
 ];
 
 const research = [
@@ -126,13 +134,21 @@ const bookRecognition = [
   },
 ];
 
+const speakingRecognition = [
+  {
+    label: "Keynote Speaker and Award Recipient · ICQAMM 2026",
+    body: "International Conference on Quantum, AI and Multidisciplinary Management · Audisankara Deemed to be University, Nellore, India, with INTI International University, Malaysia",
+    year: "August 2026",
+  },
+];
+
 const affiliations = [
   "Saudi Ministry of Culture",
   "SDAIA",
   "Diriyah Art Futures",
   "Thinkers360",
-  "RAGN · Global Ambassador",
-  "GCRAI · Global Ambassador",
+  "Responsible AI Governance Network (RAGN) · Global Ambassador",
+  "Global Council for Responsible AI (GCRAI) · Global Ambassador",
   "Vision 2030 Programs",
 ];
 
@@ -145,7 +161,7 @@ export default function ExecutiveCredentials() {
         <title>Executive Credentials | Syed Tufail Ahmed — AI Governance Recognition</title>
         <meta
           name="description"
-          content="Independent recognition of Syed Tufail Ahmed's work in AI governance and ethics. Thinkers360 Top 10 AI Ethics, Top 25 AI Governance, Certified Expert AI Governance, Favikon #1 AI Governance & Policy Saudi Arabia."
+          content="Independent recognition of Syed Tufail Ahmed's work in AI governance and ethics. Thinkers360 Top 10 AI Ethics, Top 25 AI Governance, Certified Expert AI Governance, Favikon #1 AI Governance & Policy and #1 AI Safety & Tech Ethics in Saudi Arabia. ICQAMM 2026 keynote speaker and award recipient."
         />
         <link rel="canonical" href="https://www.syedtufailahmed.com/executive-credentials" />
         <meta
@@ -155,7 +171,7 @@ export default function ExecutiveCredentials() {
         <meta name="robots" content="index, follow" />
         <meta property="og:type" content="profile" />
         <meta property="og:title" content="Executive Credentials | Syed Tufail Ahmed" />
-        <meta property="og:description" content="Thinkers360 Top 10 AI Ethics · Top 25 AI Governance · Certified Expert · Favikon #1 AI Governance & Policy Saudi Arabia" />
+        <meta property="og:description" content="Thinkers360 Top 10 AI Ethics · Top 25 AI Governance · Certified Expert · Favikon #1 AI Governance & Policy and #1 AI Safety & Tech Ethics Saudi Arabia" />
         <meta property="og:url" content="https://www.syedtufailahmed.com/executive-credentials" />
         <meta property="og:image" content="https://www.syedtufailahmed.com/og/home.png" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -225,6 +241,7 @@ export default function ExecutiveCredentials() {
                   <p className="badge-rank" style={{ color: b.color }}>{b.rank}</p>
                   <p className="badge-cat">{b.category}</p>
                   <p className="badge-body">{b.body}</p>
+                  <p className="badge-body">Awarded {b.start} · Valid to {b.end}</p>
                 </div>
               </div>
             ))}
@@ -315,6 +332,30 @@ export default function ExecutiveCredentials() {
                   <p className="cert-org">{b.body} · {b.year}</p>
                 </div>
                 <span className="cert-type">Book Recognition</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── SPEAKING RECOGNITION ── */}
+      <section className="creds-section">
+        <div className="creds-section-inner">
+          <p className="section-eyebrow">Speaking Recognition</p>
+          <h2 className="creds-h2">Keynotes and Awards</h2>
+          <p className="creds-body">
+            Invited keynotes at international conferences, with recognition from the
+            organising institutions. See the <Link to="/speaking">Speaking page</Link> for
+            topics and engagements.
+          </p>
+          <div className="certs-list" style={{ marginTop: "1.5rem" }}>
+            {speakingRecognition.map((s) => (
+              <div key={s.label} className="cert-card">
+                <div>
+                  <p className="cert-name">{s.label}</p>
+                  <p className="cert-org">{s.body} · {s.year}</p>
+                </div>
+                <span className="cert-type">Keynote &amp; Award</span>
               </div>
             ))}
           </div>

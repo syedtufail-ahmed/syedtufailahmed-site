@@ -71,7 +71,7 @@ export default function About() {
         <title>About Syed Tufail Ahmed | UN Geneva AI Governance Speaker · Riyadh, KSA</title>
         <meta
           name="description"
-          content="Syed Tufail Ahmed is an AI governance leader and registered participant at the United Nations Global Dialogue on AI Governance, Geneva 2026. 20+ years in enterprise transformation, public-sector AI, and human-centered governance. Author of Human in the Loop."
+          content="Syed Tufail Ahmed is an AI governance leader and registered participant at the United Nations Global Dialogue on AI Governance, Geneva 2026. 20+ years in enterprise transformation, public-sector AI, and human-centered governance. Keynote speaker and award recipient at ICQAMM 2026. Author of Human in the Loop."
         />
         <link rel="canonical" href="https://www.syedtufailahmed.com/about" />
         <meta
@@ -143,7 +143,7 @@ export default function About() {
             Registered participant at the{" "}
             <strong>United Nations Global Dialogue on AI Governance</strong>, Geneva,
             July 6–7, 2026 — a United Nations General Assembly mandated meeting.
-            Nominated by GCRAI, with a written contribution indexed among 1,500+
+            Nominated by the Global Council for Responsible AI (GCRAI), with a written contribution indexed among 1,500+
             global submissions.
           </p>
         </div>
@@ -164,7 +164,8 @@ export default function About() {
             of AI strategy, accountable system design, and large-scale public-sector
             transformation — with a specific focus on how organisations move from AI
             experimentation into production-scale deployment that is genuinely trustworthy.
-            Ranked <strong>#1 in AI Governance &amp; Policy in Saudi Arabia</strong> and{" "}
+            Ranked <strong>#1 in AI Governance &amp; Policy</strong> and{" "}
+            <strong>#1 in AI Safety &amp; Tech Ethics in Saudi Arabia</strong>, and{" "}
             <strong>#11 in AI Safety &amp; Tech Ethics worldwide</strong> by Favikon (June 2026),
             and recognised as a <strong>Thinkers360 Certified Expert</strong> in AI Governance and AI.
           </p>
@@ -188,6 +189,16 @@ export default function About() {
               <strong>25 Best Agentic AI Books</strong>
             </a>
             {" "}by Thinkers360 Experts.
+          </p>
+
+          <p className="about-body">
+            In August 2026 I delivered the keynote at{" "}
+            <Link to="/speaking"><strong>ICQAMM 2026</strong></Link>, the International
+            Conference on Quantum, AI and Multidisciplinary Management in Nellore, India,
+            and was honoured with an award by the organisers. I have also completed the{" "}
+            <strong>Public Policy with AI</strong> executive programme at the Lee Kuan Yew
+            School of Public Policy, National University of Singapore. My capstone argued for
+            Governance by Design as the interoperability layer for cross-jurisdictional AI governance.
           </p>
 
           <blockquote className="about-quote">
@@ -289,9 +300,10 @@ export default function About() {
 
           <div className="edu-grid">
             <div className="edu-card">
-              <p className="edu-degree">Executive Education — AI &amp; Public Policy</p>
+              <p className="edu-degree">Executive Education · Public Policy with AI</p>
               <p className="edu-school">Lee Kuan Yew School of Public Policy, NUS</p>
-              <p className="edu-year">March – August 2026 · In Progress</p>
+              <p className="edu-year">Completed 2026</p>
+              <p className="edu-year">Capstone: Governance by Design as the Interoperability Layer for Cross-Jurisdictional AI Governance</p>
             </div>
             <div className="edu-card">
               <p className="edu-degree">Postgraduate Certificate · AI & Digital Imaging</p>
@@ -311,12 +323,15 @@ export default function About() {
             <span className="cert-badge">PMI Essentials: Seven AI Project Patterns</span>
             <span className="cert-badge">Top 10 · AI Ethics · Thinkers360</span>
             <span className="cert-badge">Top 25 · AI Governance · Thinkers360</span>
+            <span className="cert-badge">Top 10 · AI Safety · Thinkers360</span>
+            <span className="cert-badge">Top 100 · Agentic AI · Thinkers360</span>
             <span className="cert-badge">Thinkers360 Certified Expert · AI Governance</span>
             <span className="cert-badge">Thinkers360 Certified Expert · AI</span>
             <span className="cert-badge">#1 AI Governance &amp; Policy · Saudi Arabia · Favikon</span>
             <span className="cert-badge">#1 AI Safety &amp; Tech Ethics · Saudi Arabia · Favikon</span>
             <span className="cert-badge">#2 AI &amp; ML Researchers · LinkedIn · Saudi Arabia · Favikon</span>
             <span className="cert-badge">#11 AI Safety &amp; Tech Ethics · LinkedIn · Worldwide · Favikon</span>
+            <span className="cert-badge">Keynote Speaker &amp; Award · ICQAMM 2026</span>
             <span className="cert-badge">ORCID: 0009-0009-3435-4361</span>
           </div>
         </div>
