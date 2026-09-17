@@ -7,7 +7,7 @@ export default function CredentialsSchema() {
     "name": "Syed Tufail Ahmed",
     "url": "https://www.syedtufailahmed.com",
     "jobTitle": "AI Governance Leader | Author | Head, Project Management Centre of Excellence",
-    "description": "AI Governance Leader based in Riyadh, Saudi Arabia. Thinkers360 Top 10 AI Ethics, Top 25 AI Governance, Certified Expert in AI Governance and AI. Favikon #1 AI Governance & Policy and #1 AI Safety & Tech Ethics in Saudi Arabia (June 2026), #11 AI Safety & Tech Ethics worldwide. Author of Human in the Loop, listed among 25 Best Agentic AI Books by Thinkers360 Experts. Research under peer review at npj Digital Medicine (Nature Portfolio) and AI & Society (Springer). Global Ambassador, RAGN & GCRAI.",
+    "description": "AI Governance Leader based in Riyadh, Saudi Arabia. Thinkers360 Top 10 AI Ethics, Top 25 AI Governance, Certified Expert in AI Governance and AI. Favikon #1 AI Governance & Policy and #1 AI Safety & Tech Ethics in Saudi Arabia (June 2026), #11 AI Safety & Tech Ethics worldwide. Author of Human in the Loop, listed among 25 Best Agentic AI Books by Thinkers360 Experts. Research under peer review at npj Digital Medicine (Nature Portfolio) and AI & Society (Springer). Keynote speaker and award recipient at ICQAMM 2026. Completed the Public Policy with AI executive programme at the Lee Kuan Yew School of Public Policy, NUS. Global Ambassador, Responsible AI Governance Network (RAGN) and Global Council for Responsible AI (GCRAI).",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Riyadh",
@@ -18,6 +18,8 @@ export default function CredentialsSchema() {
       "https://orcid.org/0009-0009-3435-4361",
       "https://www.thinkers360.com/tl/badge/31895/7496",
       "https://www.thinkers360.com/tl/badge/31895/7497",
+      "https://www.thinkers360.com/tl/badge/31895/8509",
+      "https://www.thinkers360.com/tl/badge/31895/8508",
       "https://www.amazon.com/Human-Loop-Reclaiming-Authority-Intelligent/dp/B0GGCJFTBQ",
       "https://medium.com/@syedtufailahmed"
     ],
@@ -35,6 +37,12 @@ export default function CredentialsSchema() {
       },
       {
         "@type": "EducationalOccupationalCredential",
+        "name": "Executive Education: Public Policy with AI",
+        "credentialCategory": "Executive Education",
+        "recognizedBy": { "@type": "EducationalOrganization", "name": "Lee Kuan Yew School of Public Policy, National University of Singapore" }
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
         "name": "Postgraduate Certificate in AI & Digital Imaging",
         "credentialCategory": "Academic Credential",
         "recognizedBy": { "@type": "Organization", "name": "Indian Institute of Science (IISc)" }
@@ -43,26 +51,48 @@ export default function CredentialsSchema() {
         "@type": "EducationalOccupationalCredential",
         "name": "Thinkers360 Certified Expert — AI Governance",
         "credentialCategory": "Expert Certification",
-        "dateIssued": "2026-06-25",
+        "dateCreated": "2026-06-25",
+        "expires": "2027-06-25",
         "recognizedBy": { "@type": "Organization", "name": "Thinkers360", "url": "https://www.thinkers360.com" }
       },
       {
         "@type": "EducationalOccupationalCredential",
         "name": "Thinkers360 Certified Expert — AI",
         "credentialCategory": "Expert Certification",
-        "dateIssued": "2026-06-21",
+        "dateCreated": "2026-06-21",
+        "expires": "2027-06-21",
         "recognizedBy": { "@type": "Organization", "name": "Thinkers360", "url": "https://www.thinkers360.com" }
       },
       {
         "@type": "EducationalOccupationalCredential",
         "name": "Top 10 Thought Leader — AI Ethics",
         "credentialCategory": "Award",
+        "dateCreated": "2026-01-26",
+        "expires": "2027-01-26",
         "recognizedBy": { "@type": "Organization", "name": "Thinkers360", "url": "https://www.thinkers360.com" }
       },
       {
         "@type": "EducationalOccupationalCredential",
         "name": "Top 25 Thought Leader — AI Governance",
         "credentialCategory": "Award",
+        "dateCreated": "2026-01-26",
+        "expires": "2027-01-26",
+        "recognizedBy": { "@type": "Organization", "name": "Thinkers360", "url": "https://www.thinkers360.com" }
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Top 10 Thought Leader — AI Safety",
+        "credentialCategory": "Award",
+        "dateCreated": "2026-06-30",
+        "expires": "2027-06-30",
+        "recognizedBy": { "@type": "Organization", "name": "Thinkers360", "url": "https://www.thinkers360.com" }
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Top 100 Thought Leader — Agentic AI",
+        "credentialCategory": "Award",
+        "dateCreated": "2026-06-30",
+        "expires": "2027-06-30",
         "recognizedBy": { "@type": "Organization", "name": "Thinkers360", "url": "https://www.thinkers360.com" }
       },
       {
@@ -87,13 +117,16 @@ export default function CredentialsSchema() {
     "award": [
       "Top 10 Thought Leader in AI Ethics — Thinkers360",
       "Top 25 Thought Leader in AI Governance — Thinkers360",
+      "Top 10 Thought Leader in AI Safety — Thinkers360",
+      "Top 100 Thought Leader in Agentic AI — Thinkers360",
       "Thinkers360 Certified Expert in AI Governance (June 2026)",
       "Thinkers360 Certified Expert in AI (June 2026)",
       "#1 AI Governance & Policy — Saudi Arabia (Favikon, June 2026)",
       "#1 AI Safety & Tech Ethics — Saudi Arabia (Favikon, June 2026)",
       "#2 AI & ML Researchers — LinkedIn, Saudi Arabia (Favikon, June 2026)",
       "#11 AI Safety & Tech Ethics — LinkedIn Worldwide (Favikon, June 2026)",
-      "Human in the Loop listed among 25 Best Agentic AI Books — Thinkers360 Experts (2026)"
+      "Human in the Loop listed among 25 Best Agentic AI Books — Thinkers360 Experts (2026)",
+      "Keynote speaker and award recipient, ICQAMM 2026 (International Conference on Quantum, AI and Multidisciplinary Management)"
     ],
     "subjectOf": [
       {
